@@ -1,83 +1,359 @@
 <!DOCTYPE html>
-<html lang="en" class="theme_switchable">
+<html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Expanding flex cards</title>
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css'>
-<link rel='stylesheet' href='https://static.fontawesome.com/css/fontawesome-app.css'>
-<link rel='stylesheet' href='https://pro.fontawesome.com/releases/v5.2.0/css/all.css'>
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:400,700'><link rel="stylesheet" href="{{asset('dashboard/style.css')}}">
+  <title>Ayakashi Gallery Scroll by Jim Cheng</title>
+  <link rel="stylesheet" href="dashboard/style.css">
 
 </head>
 <body>
 <!-- partial:index.partial.html -->
-<div class="options">
-   <div class="option active" style="--optionBackground:url(https://66.media.tumblr.com/6fb397d822f4f9f4596dff2085b18f2e/tumblr_nzsvb4p6xS1qho82wo1_1280.jpg);">
-      <div class="shadow"></div>
-      <div class="label">
-         <div class="icon">
-            <i class="fas fa-walking"></i>
-         </div>
-         <div class="info">
-            <div class="main">Blonkisoaz</div>
-            <div class="sub">Omuke trughte a otufta</div>
-         </div>
-      </div>
-   </div>
-   <div class="option" style="--optionBackground:url(https://66.media.tumblr.com/8b69cdde47aa952e4176b4200052abf4/tumblr_o51p7mFFF21qho82wo1_1280.jpg);">
-      <div class="shadow"></div>
-      <div class="label">
-         <div class="icon">
-            <i class="fas fa-snowflake"></i>
-         </div>
-         <div class="info">
-            <div class="main">Oretemauw</div>
-            <div class="sub">Omuke trughte a otufta</div>
-         </div>
-      </div>
-   </div>
-   <div class="option" style="--optionBackground:url(https://66.media.tumblr.com/5af3f8303456e376ceda1517553ba786/tumblr_o4986gakjh1qho82wo1_1280.jpg);">
-      <div class="shadow"></div>
-      <div class="label">
-         <div class="icon">
-            <i class="fas fa-tree"></i>
-         </div>
-         <div class="info">
-            <div class="main">Iteresuselle</div>
-            <div class="sub">Omuke trughte a otufta</div>
-         </div>
-      </div>
-   </div>
-   <div class="option" style="--optionBackground:url(https://66.media.tumblr.com/5516a22e0cdacaa85311ec3f8fd1e9ef/tumblr_o45jwvdsL11qho82wo1_1280.jpg);">
-      <div class="shadow"></div>
-      <div class="label">
-         <div class="icon">
-            <i class="fas fa-tint"></i>
-         </div>
-         <div class="info">
-            <div class="main">Idiefe</div>
-            <div class="sub">Omuke trughte a otufta</div>
-         </div>
-      </div>
-   </div>
-   <div class="option" style="--optionBackground:url(https://66.media.tumblr.com/f19901f50b79604839ca761cd6d74748/tumblr_o65rohhkQL1qho82wo1_1280.jpg);">
-      <div class="shadow"></div>
-      <div class="label">
-         <div class="icon">
-            <i class="fas fa-sun"></i>
-         </div>
-         <div class="info">
-            <div class="main">Inatethi</div>
-            <div class="sub">Omuke trughte a otufta</div>
-         </div>
-      </div>
-   </div>
+<div class="container">
+
+	<div id="level1" class="row">
+
+		<div class="col1">
+
+			<div class="gallery">
+
+				<div class="gallery_item">
+          <img src="https://yasushi.me/ayabeta/img/l/1579.jpg" />
+				</div>
+
+				<div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/1062.jpg" />
+				</div>
+
+				<div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/1579.jpg" />
+				</div>
+
+				<div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/584.jpg" />
+				</div>
+
+        <div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/918.jpg" />
+				</div>
+
+        <div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/962.jpg" />
+				</div>
+
+        <div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/1492.jpg" />
+				</div>
+
+        <div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/924.jpg" />
+				</div>
+
+        <div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/680.jpg" />
+				</div>
+
+        <div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/976.jpg" />
+				</div>
+
+        <div class="gallery_item">
+          <img src="https://yasushi.me/ayabeta/img/l/1237.jpg" />
+				</div>
+
+				<div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/401.jpg" />
+				</div>
+
+				<div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/1427.jpg" />
+				</div>
+
+				<div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/565.jpg" />
+				</div>
+
+        <div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/918.jpg" />
+				</div>
+
+        <div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/734.jpg" />
+				</div>
+
+        <div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/784.jpg" />
+				</div>
+
+        <div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/870.jpg" />
+				</div>
+
+        <div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/1062.jpg" />
+				</div>
+
+        <div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/1437.jpg" />
+				</div>
+
+        <div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/763.jpg" />
+				</div>
+
+        <div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/1186.jpg" />
+				</div>
+
+        <div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/61.jpg" />
+				</div>
+
+        <div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/529.jpg" />
+				</div>
+
+        <div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/668.jpg" />
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+	<div id="level2" class="row">
+
+		<div class="col2">
+
+			<div class="gallery">
+
+				<div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/668.jpg" />
+				</div>
+
+				<div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/130.jpg" />
+				</div>
+
+				<div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/1596.jpg" />
+				</div>
+
+				<div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/697.jpg" />
+				</div>
+
+        <div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/1554.jpg" />
+				</div>
+
+        <div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/1073.jpg" />
+				</div>
+
+        <div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/1360.jpg" />
+				</div>
+
+        <div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/1565.jpg" />
+				</div>
+
+        <div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/1384.jpg" />
+				</div>
+
+        <div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/1480.jpg" />
+				</div>
+
+        <div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/1579.jpg" />
+				</div>
+
+				<div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/1564.jpg" />
+				</div>
+
+				<div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/650.jpg" />
+				</div>
+
+				<div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/651.jpg" />
+				</div>
+
+        <div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/1267.jpg" />
+				</div>
+
+        <div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/835.jpg" />
+				</div>
+
+        <div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/867.jpg" />
+				</div>
+
+        <div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/1149.jpg" />
+				</div>
+
+        <div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/1522.jpg" />
+				</div>
+
+        <div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/1161.jpg" />
+				</div>
+
+        <div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/220.jpg" />
+				</div>
+
+        <div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/540.jpg" />
+				</div>
+
+        <div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/1149.jpg" />
+				</div>
+
+        <div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/1596.jpg" />
+				</div>
+
+        <div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/1113.jpg" />
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+	<div id="level3" class="row">
+
+    	<div class="col3">
+
+			<div class="gallery">
+
+				<div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/631.jpg" />
+				</div>
+
+				<div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/445.jpg" />
+				</div>
+
+				<div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/45.jpg" />
+				</div>
+
+				<div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/262.jpg" />
+				</div>
+
+        <div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/438.jpg" />
+				</div>
+
+        <div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/1395.jpg" />
+				</div>
+
+        <div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/1088.jpg" />
+				</div>
+
+        <div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/1103.jpg" />
+				</div>
+
+        <div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/1345.jpg" />
+				</div>
+
+        <div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/1601.jpg" />
+				</div>
+
+        <div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/528.jpg" />
+				</div>
+
+				<div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/819.jpg" />
+				</div>
+
+				<div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/856.jpg" />
+				</div>
+
+				<div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/872.jpg" />
+				</div>
+
+        <div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/1157.jpg" />
+				</div>
+
+        <div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/720.jpg" />
+				</div>
+
+        <div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/1010.jpg" />
+				</div>
+
+        <div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/590.jpg" />
+				</div>
+
+        <div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/410.jpg" />
+				</div>
+
+        <div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/1439.jpg" />
+				</div>
+
+        <div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/1102.jpg" />
+				</div>
+
+        <div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/1618.jpg" />
+				</div>
+
+        <div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/1064.jpg" />
+				</div>
+
+        <div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/1554.jpg" />
+				</div>
+
+        <div class="gallery_item">
+					<img src="https://yasushi.me/ayabeta/img/l/1023.jpg" />
+				</div>
+
+			</div>
+
+		</div>
+
+  	</div>
+
 </div>
 
-<a href="http://victorofvalencia-blog.tumblr.com" target="_blank" class="credit">Photos from Victor of Valencia on tumblr</a>
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
 <!-- partial -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
-<script src='https://codepen.io/z-/pen/jvReOb/a8e37caf2a04602ea5815e5acedab458.js'></script><script  src="{{asset('dashboard/script.js')}}"></script>
-.
+  <script  src="{{asset('dashboard/script.js')}}"></script>
+
 </body>
 </html>
