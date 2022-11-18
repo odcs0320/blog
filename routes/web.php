@@ -33,9 +33,12 @@ Route::prefix('/users')->group(function () {
 
 Route::namespace ('App\Http\Controllers')->group(function () {
 // 裡頭的控制器都包含在 以下命名空間” App\Http\Controllers"
-    Route::get('admin', 'App\Http\Controllers\SiteController@dashboard');
+    Route::get('admin', 'SiteController@dashboard');
+    Route::get('admin1', 'SiteController@dashboard1');
 });
 
 Route::middleware(['auth'])->group(function () {
 // 訪問裡頭的路由都需要先經過驗證，即登入查詢用戶資料路由
 });
+
+Route::resource('posts', 'App\Http\Controllers\PostController');
