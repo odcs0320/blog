@@ -1,55 +1,45 @@
-var objScrollTop = 0;
-var scroll = 0;
+// ---------vertical-menu with-inner-menu-active-animation-----------
 
-$(window).on('load', function()
-{
-	parallax(document.getElementById('level1'), -1.5, -4800);
-	parallax(document.getElementById('level2'), -1, -2900);
-	parallax(document.getElementById('level3'), -1.3, 200);
+var tabsVerticalInner = $('#accordian');
+var selectorVerticalInner = $('#accordian').find('li').length;
+var activeItemVerticalInner = tabsVerticalInner.find('.active');
+var activeWidthVerticalHeight = activeItemVerticalInner.innerHeight();
+var activeWidthVerticalWidth = activeItemVerticalInner.innerWidth();
+var itemPosVerticalTop = activeItemVerticalInner.position();
+var itemPosVerticalLeft = activeItemVerticalInner.position();
+$(".selector-active").css({
+	"top":itemPosVerticalTop.top + "px", 
+	"left":itemPosVerticalLeft.left + "px",
+	"height": activeWidthVerticalHeight + "px",
+	"width": activeWidthVerticalWidth + "px"
+});
+$("#accordian").on("click","li",function(e){
+	$('#accordian ul li').removeClass("active");
+	$(this).addClass('active');
+	var activeWidthVerticalHeight = $(this).innerHeight();
+	var activeWidthVerticalWidth = $(this).innerWidth();
+	var itemPosVerticalTop = $(this).position();
+	var itemPosVerticalLeft = $(this).position();
+	$(".selector-active").css({
+		"top":itemPosVerticalTop.top + "px", 
+		"left":itemPosVerticalLeft.left + "px",
+		"height": activeWidthVerticalHeight + "px",
+		"width": activeWidthVerticalWidth + "px"
+	});
 });
 
-$('body').on('mousewheel DOMMouseScroll MozMousePixelScroll wheel', function(e)
-{
 
-	if ( e.originalEvent.wheelDelta !== undefined )
-	{
-		parallax(document.getElementById('level1'), -1.5, e.originalEvent.wheelDelta);
-		parallax(document.getElementById('level2'), -1, e.originalEvent.wheelDelta);
-		parallax(document.getElementById('level3'), -1.3, e.originalEvent.wheelDelta);
+// --------------add active class-on another-page move----------
+jQuery(document).ready(function($){
+  // Get current path and find target link
+  var path = window.location.pathname.split("/").pop();
 
-	}else if ( e.originalEvent.deltaY !== undefined )
-	{
-		parallax(document.getElementById('level1'), -1.5, (e.originalEvent.deltaY * (-30)));
-		parallax(document.getElementById('level2'), -1, (e.originalEvent.deltaY * (-30)));
-		parallax(document.getElementById('level3'), -1.3, (e.originalEvent.deltaY * (-30)));
-	}
+  // Account for home page with empty path
+  if ( path == '' ) {
+    path = 'index.html';
+  }
+
+  var target = $('#accordian ul li a[href="'+path+'"]');
+  // Add active class to target link
+  target.parent().addClass('active');
 });
-
-function parallax(target, layer, scrollinit)
-{
-    var layer_coeff = 10 / layer;
-    scroll = scroll + ( parseInt(scrollinit) );
-
-    // var y = ($(window).height() - target.offsetHeight) / 2 - (scroll - ($(window).height() / 2)) / layer_coeff;
-    var y 		= ( $(window).height() / 2 ) - (scroll - ($(window).height() / 2)) / layer_coeff;
-    var scarto 	= target.offsetHeight - $(window).height();
-
-    // Aggiunge sotto la gallery quando si avvicina alla fine della colonna
-    if ( ( y < 0 ) && ( Math.abs(y) >= scarto ) )	append_gallery(target);
-
-    if ( ( parseInt(scrollinit) >= 0 ) && ( Math.abs(scroll) < 6000 ) )
-    {
-    	scroll = scroll - 150;
-    	return;
-    }
-
-    $(target).css('marginTop', y);
-}
-
-function append_gallery(column)
-{
-	var container 	= $(column).find('.gallery'),
-		items 		= container.children();
-
-	items.clone().appendTo(container);
-}

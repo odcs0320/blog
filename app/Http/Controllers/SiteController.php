@@ -28,13 +28,15 @@ class SiteController extends Controller
         //return view('dashboard', compact('name', 'date'));
 
         //with
-        return view('dashboard')->with(['name' => 'Jim Cheng', 'date' => '20221118']);
+        //return view('dashboard')->with(['name' => 'Jim Cheng', 'date' => '20221118']);
 
         //view
         //$data = [];
         //$data['name'] = 'Jim Cheng';
         //$data['date'] = '20221118';
         //return view('dashboard', $data);
+
+        return view('layouts.master');
 
     }
 

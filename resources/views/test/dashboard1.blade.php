@@ -7,7 +7,7 @@
   <!--<title>{!!$name1!!} Gallery Scroll by {!!$name2!!}</title>-->
   <!--不建議用上面的方式,因為你不能保證你的使用者會如何操作-->
   <title>{{$name1}} Gallery Scroll by {{$name2}}</title>
-  <link rel="stylesheet" href="dashboard/style.css">
+  <link rel="stylesheet" href="gallery/style.css">
 
 </head>
 <body>
@@ -289,7 +289,7 @@
   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
   crossorigin="anonymous"></script>
 <!-- partial -->
-  <script  src="{{asset('dashboard/script.js')}}"></script>
+  <script  src="{{asset('gallery/script.js')}}"></script>
 
 </body>
 </html>
