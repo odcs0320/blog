@@ -2,48 +2,82 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - New Style Dashboard Sidebar With Active Class</title>
-  <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css'><link rel="stylesheet" href="{{asset('dashboard/style.css')}}">
+  <title>CodePen - Fancy Admin Menu</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'><link rel="stylesheet" href="master/style.css">
 
 </head>
 <body>
 <!-- partial:index.partial.html -->
-<div id="accordian">
-            <ul class="show-dropdown main-navbar">
-                <div class="selector-active"><div class="top"></div><div class="bottom"></div></div>
-                <li>
-                    <a href="javascript:void(0);"><i class="fas fa-tachometer-alt"></i>Dashboard</a>
-                </li>
-                <li class="active">
-                    <a href="javascript:void(0);"><i class="far fa-address-book"></i>Address Book</a>
-                </li>
-                <li>
-                    <a href="javascript:void(0);"><i class="far fa-clone"></i>Components</a>
-                </li>
-                <li>
-                    <a href="javascript:void(0);"><i class="far fa-calendar-alt"></i>Calendar</a>
-                </li>
-                <li>
-                    <a href="javascript:void(0);"><i class="far fa-chart-bar"></i>Charts</a>
-                </li>
-                <li>
-                    <a href="javascript:void(0);"><i class="far fa-copy"></i>Documents</a>
-                </li>
-                <li>
-                    <a href="javascript:void(0);"><i class="far fa-bookmark"></i>Bookmarks</a>
-                </li>
-                <li>
-                    <a href="javascript:void(0);"><i class="far fa-envelope"></i>Mail</a>
-                </li>
-                <li>
-                    <a href="javascript:void(0);"><i class="far fa-heart"></i>Favorite</a>
-                </li>
-            </ul>
-        </div>
+<!-- Header - Start  -->
+<header id="header">
+ <div class="menu-button">
+  <div id="nav-icon3">
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+  </div>
+ </div>
+ <div id="top-bar">
+  <h3>Dashboard</h3>
+ </div>
+</header>
+<!-- Header - End  -->
+<!-- Navigation - Start  -->
+<nav id="sidemenu">
+ <div class="main-menu">
+  <ul class='main-menu'>
+   <li class="link-active">
+    <a href="#">
+     <span class='glyphicon glyphicon-home'></span> Dashboard
+    </a>
+   </li>
+   <li>
+    <a href="#">
+     <span class='glyphicon glyphicon-pushpin'></span> Posts
+    </a>
+   </li>
+   <li>
+    <a href="#">
+     <span class='glyphicon glyphicon-picture'></span> Media
+    </a>
+   </li>
+   <li>
+    <a href="#">
+     <span class='glyphicon glyphicon-book'></span> Pages
+    </a>
+   </li>
+   <li>
+    <a href="#">
+     <span class='glyphicon glyphicon-comment'></span> Comments
+    </a>
+   </li>
+  </ul>
+  <ul class='main-menu bottom'>
+   <li>
+    <a href="#">
+     <span class='glyphicon glyphicon-user'></span> Profile
+    </a>
+   </li>
+   <li>
+    <a href="#">
+     <span class='glyphicon glyphicon-cog'></span> Settings
+    </a>
+   </li>
+  </ul>
+ </div>
+ <p class="copyright">&copy; 2017</p>
+</nav>
+<!-- Navigation - End  -->
+<!-- Content - Start  -->
+<div id="content-wrapper">
+ <div class="container-fluid">
+  <h1>Content</h1>
+  @yield('gallery')
+ </div>
+</div>
 <!-- partial -->
-  <script src='https://code.jquery.com/jquery-3.4.1.min.js'></script><script  src="{{asset('dashboard/script.js')}}"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script><script  src="master/script.js"></script>
+
 </body>
 </html>

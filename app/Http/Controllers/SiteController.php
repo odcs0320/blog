@@ -36,7 +36,7 @@ class SiteController extends Controller
         //$data['date'] = '20221118';
         //return view('dashboard', $data);
 
-        return view('layouts.master');
+        return view('dashboard');
 
     }
 
@@ -50,13 +50,15 @@ class SiteController extends Controller
         //return view('test.dashboard1', compact('name1', 'date2'));
 
         //with
-        return view('test.dashboard1')->with(['name1' => 'Senkawa Chihiro', 'name2' => 'Jim Cheng']);
+        //return view('test.dashboard1')->with(['name1' => 'Senkawa Chihiro', 'name2' => 'Jim Cheng']);
 
         //view
         //$data = [];
         //$data['name1'] = 'Senkawa Chihiro';
         //$data['name2'] = 'Jim Cheng';
         //return view('test.dashboard1', $data);
+
+        return view('dashboard1');
 
     }
 }
