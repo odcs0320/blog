@@ -33,8 +33,13 @@ Route::prefix('/users')->group(function () {
 
 Route::namespace ('App\Http\Controllers')->group(function () {
 // 裡頭的控制器都包含在 以下命名空間” App\Http\Controllers"
-    Route::get('admin', 'SiteController@dashboard');
-    Route::get('admin1', 'SiteController@dashboard1');
+    // Route::get('admin', 'SiteController@dashboard');
+    // Route::get('admin1', 'SiteController@dashboard1');
+    Route::get('admin', 'SiteController@master');
+    Route::get('senkawa_chihiro', 'SiteController@senkawa_chihiro');
+    Route::get('black_haired_girl', 'SiteController@black_haired_girl');
+    Route::get('ol_chan', 'SiteController@ol_chan');
+
 });
 
 Route::middleware(['auth'])->group(function () {

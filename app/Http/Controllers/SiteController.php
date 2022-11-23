@@ -61,4 +61,30 @@ class SiteController extends Controller
         return view('dashboard1');
 
     }
+
+    public function master()
+    {
+        return view('layouts.master');
+    }
+
+    public function senkawa_chihiro()
+    {
+        return view('senkawa_chihiro');
+    }
+
+    public function black_haired_girl()
+    {
+        return view('black_haired_girl');
+    }
+
+    public function ol_chan()
+    {
+
+        $id = ['https://cdn.donmai.us/original/a4/fb/__ol_chan_original_drawn_by_oouso__a4fb9f6fe9b66ea724de06906198d558.jpg
+',
+            'https://cdn.donmai.us/original/a4/fb/__ol_chan_original_drawn_by_oouso__a4fb9f6fe9b66ea724de06906198d558.jpg
+'];
+        return view('ol_chan', compact('id'));
+
+    }
 }
