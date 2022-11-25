@@ -1,4 +1,5 @@
-@extends('layouts.master')<!--繼承主板-->
+@extends('layouts.master')<!--繼承父視圖-->
+<H1>{{$name1}}</H1>
 @section('gallery')
 
 <html lang="en" >
@@ -126,7 +127,11 @@
 
   	</div>
 
+
+
 </div>
+
+
 
 <script
   src="https://code.jquery.com/jquery-3.4.1.min.js"
@@ -134,14 +139,10 @@
   crossorigin="anonymous"></script>
 <!-- partial -->
   <script  src="{{asset('gallery/script.js')}}"></script>
-
 </body>
 </html>
-
 @stop
-<!--補洞1-->
-@section('script','Homework_20221118')<!--補洞2-->
-@section('content')<!--補洞3-->
-  <div>AAAAAAAA</div>
-  @parent
-@endsection
+
+
+
+

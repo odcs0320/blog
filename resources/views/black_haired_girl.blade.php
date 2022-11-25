@@ -1,4 +1,5 @@
-@extends('layouts.master')<!--繼承主板-->
+@extends('layouts.master')<!--繼承父視圖-->
+<H1>{{$name2}}</H1>
 @section('gallery')
 
 <html lang="en" >

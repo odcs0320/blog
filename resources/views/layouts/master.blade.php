@@ -2,7 +2,7 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Fancy Admin Menu</title>
+  <title>Jim Cheng_HomeWork</title>
   <meta name="viewport" content="width=device-width, initial-scale=1"><link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'><link rel="stylesheet" href="master/style.css">
 
 </head>
@@ -19,7 +19,7 @@
   </div>
  </div>
  <div id="top-bar">
-  <h3>Dashboard</h3>
+  <h3>{{$global}}</h3>
  </div>
 </header>
 <!-- Header - End  -->
@@ -72,12 +72,10 @@
 <!-- Content - Start  -->
 <div id="content-wrapper">
  <div class="container-fluid">
-  <h1>Content</h1>
   @yield('gallery')
  </div>
 </div>
 <!-- partial -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script><script  src="master/script.js"></script>
-
 </body>
 </html>
