@@ -28,17 +28,20 @@
  <div class="main-menu">
   <ul class='main-menu'>
    <li class="link-active">
-    <a href="http://localhost:6080/blog/public/senkawa_chihiro/">
+    <!--<a href="http://localhost:6080/blog/public/senkawa_chihiro/">-->
+      <a href="{{url('/senkawa_chihiro')}}">
      <span class='glyphicon glyphicon-home'></span> Senkawa Chihiro
     </a>
    </li>
    <li>
-    <a href="http://localhost:6080/blog/public/black_haired_girl/">
+    <!--<a href="http://localhost:6080/blog/public/black_haired_girl/">-->
+      <a href="{{url('/black_haired_girl')}}">
      <span class='glyphicon glyphicon-pushpin'></span> Black Haired Girl
     </a>
    </li>
    <li>
-    <a href="http://localhost:6080/blog/public/ol_chan/">
+    <!--<a href="http://localhost:6080/blog/public/ol_chan/">-->
+      <a href="{{url('/ol_chan')}}">
      <span class='glyphicon glyphicon-picture'></span> Ol Chan
     </a>
    </li>

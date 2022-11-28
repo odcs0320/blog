@@ -1,5 +1,5 @@
 @extends('layouts.master')<!--繼承父視圖-->
-
+<H1>{{$name3}}</H1>
 @section('gallery')
 
 <html lang="en" >

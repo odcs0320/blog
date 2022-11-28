@@ -10,7 +10,7 @@ class PostController extends Controller
     {
         //$this->middleware('auth');
         //$this->middleware('auth')->only('index');
-        $this->middleware('auth')->except('index');
+        //$this->middleware('auth')->except('index');
     }
 
     /**
@@ -18,9 +18,9 @@ class PostController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
-        return '所有文章';
+        //return '所有文章';
     }
 
     /**
@@ -41,7 +41,7 @@ class PostController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        return $request->all();
     }
 
     /**
@@ -88,4 +88,5 @@ class PostController extends Controller
     {
         //
     }
+
 }

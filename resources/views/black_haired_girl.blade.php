@@ -1,5 +1,5 @@
 @extends('layouts.master')<!--繼承父視圖-->
-<H1>{{$name2}}</H1>
+
 @section('gallery')
 
 <html lang="en" >
@@ -17,7 +17,7 @@
 		<div class="col1">
 
 			<div class="gallery">
-
+<H1>{{$name2}}</H1>
         <?php
           $arr=array("0e/54"=>"0e54df47ad0f28901860e0ff6dff80b2",
                      "11/a5"=>"11a51743a83a7fbe621cf0864120d419",

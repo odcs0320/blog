@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Http\Request;
+
 class SiteController extends Controller
 {
     public function hello()
@@ -144,4 +146,15 @@ class SiteController extends Controller
         return view('ol_chan', compact('id1', 'id2', 'id3'));
 
     }
+
+    public function store(Request $request)
+    {
+        dd($request->all()); //取得所有資料
+        //dd($request->only('title', 'desc')); //只取title,desc欄位資料
+        //dd($request->except('_token')); //排除_token欄位資料
+        //dd($request->title); //用動態屬性取title資料
+        //dd($request->json('name')); //指定JSON格式的name資料
+
+    }
+
 }
