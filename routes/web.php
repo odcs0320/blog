@@ -48,7 +48,9 @@ Route::middleware(['auth'])->group(function () {
 });
 
 Route::resource('posts', 'App\Http\Controllers\PostController');
-Route::post('store', 'App\Http\Controllers\PostController@store');
+//Route::post('store', 'App\Http\Controllers\PostController@store');
+Route::apiResource('posts', 'App\Http\Controllers\Api\PostController');
+Route::post('items', 'App\Http\Controllers\Api\ItemController@store');
 
 Route::get('senkawa_chihiro', function () {
     return view('senkawa_chihiro');
