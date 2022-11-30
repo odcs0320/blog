@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\StorePostRequest;
 use Illuminate\Http\Request;
 
 class PostController extends Controller
@@ -30,7 +31,8 @@ class PostController extends Controller
      */
     public function create()
     {
-        //
+        $jobs = ['warrior' => '戰士', 'wizard' => '法師', 'priest' => '祭司'];
+        return view('posts.create', compact('jobs'));
     }
 
     /**
@@ -39,9 +41,22 @@ class PostController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(StorePostRequest $request)
     {
+        if ($request->hasFile('pic')) {
+            $file = $request->file('pic'); //獲取UploadFile例項
+            if ($file->isValid()) { //判斷檔案是否有效
+                //$filename = $file->getClientOriginalName(); //檔案原名稱
+                $extension = $file->getClientOriginalExtension(); //副檔名
+                $filename = time() . "." . $extension; //重新命名
+                $data['pic'] = $filename;
+                $file->move('D:\xampp8\htdocs\form\storage\app\public\images', $filename); //移動至指定目錄
+            }
+        }
+
+        dd($request->file('pic'));
         return $request->all();
+
     }
 
     /**
