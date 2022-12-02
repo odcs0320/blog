@@ -4,7 +4,7 @@ namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 
-class ArticlesRequest extends FormRequest
+class ArticleRequest extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -27,6 +27,8 @@ class ArticlesRequest extends FormRequest
             'subject' => 'required|string|max:50',
             'category' => 'required|integer',
             'desc' => 'required|string|max:4000',
+            'sort' => 'required|integer',
+            'pic' => 'required|string',
         ];
     }
 }

@@ -47,7 +47,9 @@ Route::middleware(['auth'])->group(function () {
 // 訪問裡頭的路由都需要先經過驗證，即登入查詢用戶資料路由
 });
 
+Route::resource('articles', 'App\Http\Controllers\ArticleController');
 Route::resource('posts', 'App\Http\Controllers\PostController');
+
 Route::post('store', 'App\Http\Controllers\PostController@store');
 // Route::apiResource('posts', 'App\Http\Controllers\Api\PostController');
 Route::post('items', 'App\Http\Controllers\Api\ItemController@store');
