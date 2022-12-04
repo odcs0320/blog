@@ -41,6 +41,9 @@ Route::namespace ('App\Http\Controllers')->group(function () {
     Route::get('ol_chan', 'SiteController@ol_chan');
     Route::get('/store', 'SiteController@store');
 
+    //20221204
+    Route::get('index', 'SiteController@main');
+    Route::get('photo', 'SiteController@photos');
 });
 
 Route::middleware(['auth'])->group(function () {

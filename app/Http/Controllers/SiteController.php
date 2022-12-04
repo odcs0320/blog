@@ -69,6 +69,16 @@ class SiteController extends Controller
         return view('layouts.master');
     }
 
+    public function main()
+    {
+        return view('layouts.main');
+    }
+
+    public function photos()
+    {
+        return view('photos.create');
+    }
+
     public function senkawa_chihiro()
     {
         return view('senkawa_chihiro');
