@@ -51,7 +51,7 @@
     </a>
    </li>
    <li>
-    <a href="#">
+    <a href="{{url('/articles/create')}}">
      <span class='glyphicon glyphicon-comment'></span> Comments
     </a>
    </li>
