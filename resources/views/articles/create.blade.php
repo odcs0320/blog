@@ -1,10 +1,7 @@
 @extends('layouts.master')<!--繼承父視圖-->
-<h1>角色建立頁面</h1>
 @section('gallery')
 
 {!! Form::open(['url'=>'articles','method'=>'POST','files'=>true]) !!}
-
-
 
         {!! Form::hidden('mode',1)!!}
 
@@ -64,8 +61,5 @@
         {!! Form::submit('儲存', []) !!}
         {!! Form::reset('重置', []) !!}
 
-
-
 {!! Form::close() !!}
 @stop
-
