@@ -1,16 +1,26 @@
+<<<<<<< HEAD
 @extends('layouts.master')<!--繼承父視圖-->
 @section('gallery')
 
 {!! Form::open(['url'=>'articles','method'=>'POST','files'=>true]) !!}
 
         {!! Form::hidden('mode',1)!!}
+=======
+<body style="text-align: center">
+<h1>匿名貼圖討論區</h1>
+
+{!! Form::open(['url'=>'articles','method'=>'POST','files'=>true]) !!}
+
+        {!! Form::label('author', '名稱', ['class' => 'myclass']) !!}
+        {!! Form::text('author', null) !!}
+
+        {!! Form::submit('送出', []) !!}
+
+        <br><br>
+>>>>>>> 35361c8186b705086d410a44bffe5d5d56953f53
 
         {!! Form::label('subject', '標題', ['class' => 'myclass']) !!}
         {!! Form::text('subject', null) !!}
-
-        @error('subject')
-            <div class="alert alert-danger" style="color:red">{{$message}}</div>
-        @enderror
 
         <br><br>
 
@@ -23,17 +33,15 @@
 
         <br><br>
 
-        {!! Form::label('status', '狀態', []) !!}
-        重要{!! Form::radio('status', 1, true) !!}
-        一般{!! Form::radio('status', 0, false) !!}<br><br>
+        {!! Form::label('pic', '附加圖檔', []) !!}
+        {!! Form::file('pic', []) !!}
 
+        <div>無貼圖</div>{!! Form::checkbox('tags', 0, false, []) !!}
+        <div>SAGE</div>{!! Form::checkbox('tags', 1, false, []) !!}
 
-        {!! Form::label('tags', '標籤', []) !!}
-        <div style="color:blue">news</div>{!! Form::checkbox('tags', 1, false, []) !!}</div>
-        <div style="color:red">skill</div>{!! Form::checkbox('tags', 0, false, []) !!}</div>
-        <div style="color:green">like{!! Form::checkbox('tags', -1,false, []) !!}</div>
         <br><br>
 
+<<<<<<< HEAD
         {!! Form::label('sort', '排序', []) !!}
         {!! Form::number('sort', rand(0,255), ['min'=>0 , 'max'=>255]) !!}<br><br>
 
@@ -63,3 +71,8 @@
 
 {!! Form::close() !!}
 @stop
+=======
+
+{!! Form::close() !!}
+</body>
+>>>>>>> 35361c8186b705086d410a44bffe5d5d56953f53
