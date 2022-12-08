@@ -14,15 +14,13 @@ return new class extends Migration
     public function up()
     {
         Schema::create('articles', function (Blueprint $table) {
-            $table->id();
-            $table->string('subject', 100);
-            $table->text('content');
-            $table->biginteger('cgy_id')->unsigned();
-            $table->boolean('enabled')->default(true);
-            $table->integer('sort')->default(0);
-            $table->timestamp('enabled_at')->nullable();
-            $table->string('tegs', 100)->nullable();
-            $table->string('pic', 255);
+            $table->id(); //文章No
+            $table->bigInteger('user_id'); //作者ID
+            $table->string('author', 20)->nullable(); //作者
+            $table->string('subject', 100)->nullable(); //標題
+            $table->text('content'); //內文
+            $table->string('tegs', 50)->nullable(); //文章屬性
+            $table->string('pic', 255); //附加圖檔
             $table->timestamps();
         });
     }

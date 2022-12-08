@@ -1,61 +1,75 @@
-<h1>角色建立頁面</h1>
+@extends('layouts.main')<!--繼承父視圖-->
+@section('content')
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - imgboard test</title>
+  <link rel="stylesheet" href="{{asset('css/imgboardstyle.css')}}">
 
-{!! Form::open(['url'=>'posts','method'=>'POST','files'=>true]) !!}
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>LambdaChan</title>
+  </head>
+  <link rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=Roboto">
+  <body onload="startPage()">
+  <center>
+    <h1 id="logo">復古乳酪</h1>
+      <hr />
 
-        {!! Form::hidden('mode',1)!!}
+      <div id="newthread">
+        <br />
+        <div id="postblock">
+          <p>名　稱 <input type="text" value="Anonymous"></input>
+              <br />
+             標　題 <input type="text"></input> <button type="button" href="#">送　出</button>
+              <br />
+              內　文<textarea id="comment" rows="4" cols="50">
+  </textarea>
 
-        {!! Form::label('name', '角色名稱', ['class' => 'myclass']) !!}
-        {!! Form::text('name', null) !!}
+      <br />
+      附加圖片 <input type="file" id="imagefile" name="filename">
 
-        @error('name')
-            <div class="alert alert-danger" style="color:red">{{$message}}</div>
-        @enderror
+    <div class="post-info">
+      <ul>
+        <li>此為模擬futaba揭示板的HTML、CSS、JS練習作。</li>
+        <li>上方隱藏表格為CSS Grid System練習</li>
+        <li>用JS製作假留言板功能，練習DOM操作。</li>
+        <li>勾選checkbox後，點擊最下方執行按鈕可刪除貼文。</li>
+        <li>當vote小於0時刪除圖片。(目前僅No.1貼文有此功能)</li>
+      </ul>
+    </div>
+  </section>
 
-        <br><br>
+          </p>
+        </div>
+      </div>
+    <hr />
+    <br />
+</center>
+    <div class="postblock">
+      <input type="checkbox" id="postcheckbox">
+      <label for="postcheckbox" class="postername"> I have a bike</label> 31/10/2020 No.13531746 <a href="https://youtu.be/534Ab4Dv2pI">[Reply]</a><br />
+      <p>
+      hello guys
+      </p>
+    </div>
+    <hr />
+<br />
+<center>
+This is a pen lmao
+</center>
+<br />
+  </body>
+</html>
+<!-- partial -->
+  <script  src="{{asset('css/imgboardscript.js')}}"></script>
 
-        {!! Form::label('note', '角色介紹', ['class' => 'myclass']) !!}
-        {!! Form::textarea('note', null, ['cols' =>70 , 'rows'=>10]) !!}
-
-        @error('note')
-            <div class="alert alert-danger" style="color:red">{{$message}}</div>
-        @enderror
-
-        <br><br>
-
-        {!! Form::label('isMaster', '是否為主要角色', []) !!}
-        {!! Form::checkbox('isMaster', 1, true) !!}<br><br>
-
-        {!! Form::label('camp', '所屬陣營', []) !!}
-        <div style="color:blue">聯盟{!! Form::radio('camp', 1, true, []) !!}</div>
-        <div style="color:red">帝國{!! Form::radio('camp', 0, false, []) !!}</div>
-        <div style="color:green">無所屬{!! Form::radio('camp', -1,false, []) !!}</div>
-        <br><br>
-
-        {!! Form::label('power', '相性值(0-255,影響劇情與寶物參數)', []) !!}
-        {!! Form::number('power', rand(0,255), ['min'=>0 , 'max'=>255]) !!}<br><br>
-
-        {!! Form::label('month', '出生月份', []) !!}
-        {!! Form::selectMonth('month', null, []) !!}
-
-        {!! Form::label('day', '出生日期', []) !!}
-        {!! Form::selectRange('day', 1, 31, 1, []) !!}<br><br>
-
-        {!! Form::label('job', '角色職業', []) !!}
-        {!! Form::select('job', $jobs ,null, ['placeholder' => '請選擇角色職業']) !!}<br><br>
-
-        {!! Form::label('pwd', '密碼', []) !!}
-        {!! Form::password('pwd', []) !!}<br><br>
-
-        {!! Form::label('email', 'Email', []) !!}
-        {{ Form::email('email',null,[]) }}<br><br>
-
-        {!! Form::label('pic', '圖片', []) !!}
-        {!! Form::file('pic', []) !!}<br><br>
-
-        {!! Form::label('date', '日期', []) !!}
-        {!! Form::date('date',null, []) !!}<br><br>
-
-        {!! Form::submit('儲存', []) !!}
-        {!! Form::reset('重置', []) !!}
-
-{!! Form::close() !!}
+</body>
+</html>
+@stop
