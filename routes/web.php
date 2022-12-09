@@ -1,5 +1,6 @@
 <?php
 
+use App\Models\Article;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -44,6 +45,7 @@ Route::namespace ('App\Http\Controllers')->group(function () {
     //20221204
     Route::get('index', 'SiteController@main');
     Route::get('photo', 'SiteController@photos');
+
 });
 
 Route::middleware(['auth'])->group(function () {
@@ -142,3 +144,30 @@ Route::get('/url', function () {
 });
 
 //Route::put('/user/{id}'[UserController::class,'update']);
+
+Route::get('/newarticle', function () {
+
+    //$article = new Article;
+    //$article->user_id = 5478;
+    //$article->content = 'AAAAA';
+    //$article->pic = 'AAAAA.jpg';
+
+    //不去Model設fillable白名單的話執行會出現mass assignment的訊息(資訊安全,此方法只會看陣列不會管輸入是什麼內容)
+    $article = new Article(['user_id' => 7777, 'content' => '7777', 'pic' => '7777.jpg']);
+
+    //沒這一行執行後不會寫進資料庫
+    $article->save();
+
+});
+
+//修改
+Route::get('/changearticle', function () {
+    $article = Article::find(1);
+    $article->subject = 'ABC';
+    $article->save;
+});
+
+//刪除
+Route::get('/delarticle/{article}', function (Article $article) {
+    $article->delete();
+});
