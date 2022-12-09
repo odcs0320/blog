@@ -1,0 +1,107 @@
+/*** General Styles ***/
+body {
+  font-family: arial;
+  font-size: 10pt;
+  color: rgb(0, 0, 0);
+  font-size: 10pt;
+  padding: 20px;
+  background: #eef2ff url(https://s.4cdn.org/image/fade-blue.png) top center repeat-x;
+}
+div {
+  display: block;
+}
+a {
+  color: #34345c;
+  text-decoration: none;
+}
+
+/*** Header ***/
+header {
+  text-align: center;
+}
+header > h1 {
+  font-family: sans-serif !important;
+  font-size: 28px;
+  letter-spacing: -2px;
+  font-weight: 400 !important;
+  color: #af0a0f;
+  text-shadow: 1px 1px 1px rgba(105,10,15,0.6);
+}
+
+/*** Submission ***/
+form {
+  display: table;
+  border-spacing: 0px 5px;
+  vertical-align: middle;
+}
+form > div {
+  display: table-row;
+  vertical-align: inherit;
+}
+form > div > * {
+  display: table-cell;
+  vertical-align: inherit;
+}
+form > div > label {
+  padding-right: 10px;
+}
+form > div > input[value="Post"] {
+  margin-left: 5px;
+}
+
+/*** Post ***/
+div.file > img {
+  padding-right: 1em;
+  float: left;
+}
+div.op > div.file > img {
+  max-width: 250px;
+}
+#copy {
+  position: absolute;
+  max-width: auto;
+}
+.file-info {
+  padding-bottom: 2px;
+}
+.thread-info {
+  margin-right: 0.7em;
+}
+.thread-info > p {
+  display: inline-block;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+.title {
+  color: rgb(15, 12, 93);
+  font-weight: 700;
+}
+.name {
+  color: rgb(17, 119, 67);
+  font-weight: 700;
+}
+
+/*** Reply ***/
+div.reply {
+  background-color: #d6daf0;
+  border: 1px solid #b7c5d9;
+  border-left: none;
+  border-top: none;
+  display: table;
+  padding: 2px;
+  margin: 4px 0;
+  overflow: hidden;
+}
+div.reply > div.file {
+  margin-left: 24px;
+}
+div.reply > div.file > img {  
+  max-width: 125px;
+  padding-bottom: 4px;
+}
+
+/*** Footer ***/
+footer {
+  text-align: center;
+  font-size: x-small;
+}
