@@ -1,6 +1,7 @@
 <?php
 
 use App\Models\Article;
+use App\Models\Cgy;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -176,4 +177,25 @@ Route::get('/delarticle/{article}', function (Article $article) {
 //抓目前使用的sql設定
 Route::get('/config', function () {
     dd(config('database.default'));
+});
+
+Route::get('/relation', function () {
+    //$article = Article::find(1);
+    //dd($article->cgy->subject);
+    $cgy = Cgy::find(8);
+    //dd($cgy->articles);
+    dd($cgy->articles()->where('enabled', 1)->get());
+});
+
+Route::get('/changerelation', function () {
+    $article = Article::find(1);
+    $article->cgy_id = 9;
+    //$cgy_4 = Cgy::find(4);
+    //$article->cgy()->associate($cgy_4);
+    //$article->save();
+    //dd($article);
+    $cgy = Cgy::find(8);
+    $article = Article::where('cgy_id', 1)->first();
+    $cgy->articles()->save($article);
+    dd(Article::find($article->id));
 });

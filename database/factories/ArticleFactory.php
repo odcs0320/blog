@@ -18,6 +18,6 @@ class ArticleFactory extends Factory
     {
         return ['user_id' => $this->faker->randomNumber, 'author' => $this->faker->name,
             'subject' => $this->faker->address, 'content' => $this->faker->realtext,
-            'pic' => $this->faker->imageUrl];
+            'pic' => $this->faker->imageUrl, 'cgy_id' => $this->faker->Numberbetween(0, 99)];
     }
 }

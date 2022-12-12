@@ -20,7 +20,9 @@ return new class extends Migration
             $table->string('subject', 100)->nullable(); //標題
             $table->text('content'); //內文
             $table->string('tegs', 50)->nullable(); //文章屬性
+            $table->boolean('enabled')->default(true);
             $table->string('pic', 255); //附加圖檔
+            $table->foreignId('cgy_id')->constrained(); //cgy_id外鍵
             $table->timestamps();
         });
     }
@@ -32,6 +34,12 @@ return new class extends Migration
      */
     public function down()
     {
+        //刪除cgy_id外鍵
+        Schema::table('articles', function (Blueprint $table) {
+            //$table->dropForeign('posts_user_id_foreign');
+            $table->dropForeign(['cgy_id']);
+        });
+
         Schema::dropIfExists('articles');
     }
 };
