@@ -20,7 +20,7 @@ class ArticleSeeder extends Seeder
 
         //建立資料
         //for ($i = 0; $i < 10; $i++) {
-        //    Article::create(['user_id' => $faker->randomNumber, 'author' => $faker->name, 'subject' => $faker->address, 'content' => $faker->realtext, 'pic' => $faker->imageUrl]);
+        //Article::create(['user_id' => $faker->randomNumber, 'author' => $faker->name, 'subject' => $faker->address, 'content' => $faker->realtext, 'pic' => $faker->imageUrl]);
         //}
 
         Article::factory()->times(10)->create();

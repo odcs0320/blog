@@ -54,6 +54,7 @@ Route::middleware(['auth'])->group(function () {
 
 Route::resource('articles', 'App\Http\Controllers\ArticleController');
 Route::resource('posts', 'App\Http\Controllers\PostController');
+Route::put('articles/{id}', 'App\Http\Controllers\ArticleController@update');
 
 Route::post('store', 'App\Http\Controllers\PostController@store');
 // Route::apiResource('posts', 'App\Http\Controllers\Api\PostController');
@@ -164,10 +165,15 @@ Route::get('/newarticle', function () {
 Route::get('/changearticle', function () {
     $article = Article::find(1);
     $article->subject = 'ABC';
-    $article->save;
+    $article->save();
 });
 
 //刪除
 Route::get('/delarticle/{article}', function (Article $article) {
     $article->delete();
+});
+
+//抓目前使用的sql設定
+Route::get('/config', function () {
+    dd(config('database.default'));
 });

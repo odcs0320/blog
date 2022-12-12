@@ -126,9 +126,23 @@ class ArticleController extends Controller
     public function update(Request $request, $id)
     {
         $article = Article::find($id);
-        $article->subject = $request['subject'];
+        //$article->subject = $request[('subject')];
+        $article->subject = '999';
         $article->save();
         return redirect('/');
+
+        // 取得欲更新的文章
+        $article = Article::find($id);
+
+// 將 $request 中的資料填入 $article 中
+        $article->fill($request->all());
+
+// 儲存 $article
+        $article->save();
+
+// 重新導向到文章列表頁面
+        return redirect()->route('articles.index');
+
     }
 
     /**
