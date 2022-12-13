@@ -36,7 +36,7 @@ return new class extends Migration
     {
         //刪除cgy_id外鍵
         Schema::table('articles', function (Blueprint $table) {
-            //$table->dropForeign('posts_user_id_foreign');
+            $table->dropForeign('posts_user_id_foreign');
             $table->dropForeign(['cgy_id']);
         });
 

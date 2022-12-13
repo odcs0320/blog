@@ -23,3 +23,9 @@ Route::apiResource('posts', 'App\Http\Controllers\Api\PostController');
 Route::post('store2', 'App\Http\Controllers\Api\PostController@store');
 
 Route::post('items', 'App\Http\Controllers\Api\ItemController@store');
+
+Route::group(['prefix' => 'auth', 'namespace' => 'App\Http\Controllers\Api'], function () {
+    Route::get('/', 'AuthController@me')->name('me');
+    Route::post('login', 'AuthController@login')->name('login');
+    Route::post('logout', 'AuthController@logout')->name('logout');
+});
