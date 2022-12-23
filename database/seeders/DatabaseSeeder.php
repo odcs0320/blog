@@ -23,11 +23,12 @@ class DatabaseSeeder extends Seeder
         // ]);
 
         DB::statement('SET FOREIGN_KEY_CHECKS=0;'); //關閉外鍵偵測
-        $this->call(ArticleSeeder::class);
+        //$this->call(ArticleSeeder::class);
         $this->call(CgySeeder::class);
-        $this->call(TagSeeder::class);
-        $this->call(PostSeeder::class);
-        $this->call(UserSeeder::class);
+        //$this->call(TagSeeder::class);
+        //$this->call(PostSeeder::class);
+        //$this->call(UserSeeder::class);
+        $this->call(ItemSeeder::class);
         DB::statement('SET FOREIGN_KEY_CHECKS=1;'); //開啟外鍵偵測
     }
 }

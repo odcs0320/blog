@@ -18,6 +18,13 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
+//API加入JWT保護
+Route::middleware('auth:api')->group(function () {
+    Route::apiResource('items', 'App\Http\Controllers\Api\ItemController');
+    Route::get('all/{item}', 'App\Http\Controllers\Api\ItemController@selectAll');
+
+});
+
 Route::apiResource('posts', 'App\Http\Controllers\Api\PostController');
 
 Route::post('store2', 'App\Http\Controllers\Api\PostController@store');

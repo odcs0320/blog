@@ -4,18 +4,43 @@ namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
 use App\Http\Requests\ItemRequest;
+use App\Models\Cgy;
+use App\Models\Item;
 use Illuminate\Http\Request;
+use Throwable;
 
 class ItemController extends Controller
 {
+    //用於生成 JSON 字串
+    private function makeJson($status, $data, $msg)
+    {
+        //轉 JSON 時確保中文不會變成 Unicode
+        return response()->json(['status' => $status, 'data' => $data, 'message' => $msg])->setEncodingOptions(JSON_UNESCAPED_UNICODE);
+    }
+
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
+    public function selectAll(Item $item)
+    {
+        $cgy = Cgy::find($item->cgy_id);
+        $items = $item->cgy()->associate($cgy);
+        return $item;
+
+    }
+
     public function index()
     {
-        //
+        $items = Item::get();
+        if (isset($items) && count($items) > 0) {
+            $data = ['items' => $items];
+            return $this->makeJson(1, $data, null);
+        } else {
+            return $this->makeJson(0, null, '找不到產品');
+        }
+
     }
 
     /**
@@ -35,7 +60,7 @@ class ItemController extends Controller
      * @return \Illuminate\Http\Response
      */
     //public function store(Request $request)
-    public function store(ItemRequest $requtst)
+    public function store(ItemRequest $request)
     {
         //$validator = Validator::make($request->all(), [
         //'title' => 'required|max:10',
@@ -46,7 +71,17 @@ class ItemController extends Controller
         //if ($validator->fails()) {
         //return $validator;
         //}
-        return 'OK';
+        //return 'OK';
+
+        $input = $request->only(['title', 'pic', 'price', 'enabled', 'desc', 'enabled_at', 'cgy_id']);
+        $item = Item::create($input);
+        // dd($input);
+        if (isset($item)) {
+            $data = ['item_id' => $item->id];
+            return $this->makeJson(1, $data, '新增產品成功');
+        } else {
+            return $this->makeJson(0, null, '新增產品失敗');
+        }
     }
 
     /**
@@ -57,7 +92,15 @@ class ItemController extends Controller
      */
     public function show($id)
     {
-        //
+        $item = Item::find($id); //用主鍵來尋找資料
+
+        if (isset($item)) {
+            $data = ['item' => $item];
+            return $this->makeJson(1, $data, null);
+        } else {
+            return $this->makeJson(0, null, '找不到該產品');
+        }
+
     }
 
     /**
@@ -80,7 +123,25 @@ class ItemController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        try {
+            $item = Item::findOrFail($id);
+
+            $input = $request->only(['title', 'pic', 'price', 'enabled', 'desc', 'enabled_at', 'cgy_id']);
+            // return $input;
+            if ($input['enabled'] == '1') {
+                $input['enabled'] = true;
+            } else {
+                $input['enabled'] = false;
+            }
+            $item->update($input);
+        } catch (Throwable $e) {
+            //更新失敗
+            return $this->makeJson(0, null, '更新產品失敗');
+        }
+
+        $data = ['item_id' => $item->id];
+        return $this->makeJson(1, $data, '更新產品成功');
+
     }
 
     /**
@@ -91,7 +152,15 @@ class ItemController extends Controller
      */
     public function destroy($id)
     {
-        //
+        try {
+            $item = Item::findOrFail($id);
+            $item->delete();
+        } catch (Throwable $e) {
+            //刪除失敗
+            return $this->makeJson(0, null, '刪除產品失敗');
+        }
+        return $this->makeJson(1, null, '刪除產品成功');
+
     }
 
 }

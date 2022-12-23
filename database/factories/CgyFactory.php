@@ -16,8 +16,12 @@ class CgyFactory extends Factory
      */
     public function definition()
     {
-        return ['subject' => $this->faker->address, 'desc' => $this->faker->realtext,
-            'pic' => $this->faker->imageUrl, 'sort' => $this->faker->randomNumber,
+        return [
+            //'subject' => $this->faker->address, 'desc' => $this->faker->realtext,
+            //'pic' => $this->faker->imageUrl, 'sort' => $this->faker->randomNumber,
+            'title' => $this->faker->realText(20),
+            'sort' => rand(0, 20),
+            'pic' => $this->faker->imageUrl($width = 640, $height = 480),
         ];
     }
 }
