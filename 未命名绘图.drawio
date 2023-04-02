@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-02T03:14:35.527Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="aW-FACaCcV-H-_0Ryc3S" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-02T03:38:29.197Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="TPEVp6Gh1uVPX6vJMmzP" version="21.1.1" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="880" dy="461" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -96,6 +96,21 @@
         </mxCell>
         <mxCell id="bA_DWow7jITAsD4Xbj8_-90" value="4:查看商品明細( )" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="110" y="330" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="scAz_sJh-p4d1cDr2ZtB-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="595" y="345" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="scAz_sJh-p4d1cDr2ZtB-2" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="245" y="360" as="sourcePoint" />
+            <mxPoint x="595" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="scAz_sJh-p4d1cDr2ZtB-3" value="5:瀏覽商品明細( )" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="330" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
