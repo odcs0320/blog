@@ -1,369 +1,280 @@
-<mxfile host="app.diagrams.net" modified="2023-04-10T03:27:50.913Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="Ma5tl3w0obA3jdTrODEX" version="21.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-10T03:50:00.465Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="BguydTLCVtPBb6NaHcM3" version="21.1.5" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="880" dy="461" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ECdubJ1jrFnXmb-SFTi5-120" value="" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=none;dashed=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="668.13" y="374" as="sourcePoint" />
+            <mxPoint x="668.51" y="189" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ECdubJ1jrFnXmb-SFTi5-119" value="" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=none;dashed=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="552.63" y="481" as="sourcePoint" />
+            <mxPoint x="552.38" y="186" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ECdubJ1jrFnXmb-SFTi5-118" value="" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=none;dashed=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="428.13" y="371" as="sourcePoint" />
+            <mxPoint x="428.51" y="186" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ECdubJ1jrFnXmb-SFTi5-121" value="" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=none;dashed=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="105.63" y="486" as="sourcePoint" />
+            <mxPoint x="105.38" y="191" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ECdubJ1jrFnXmb-SFTi5-117" value="" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=none;dashed=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="273.13" y="481" as="sourcePoint" />
+            <mxPoint x="272.88" y="186" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ECdubJ1jrFnXmb-SFTi5-23" value="會員" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
-          <mxGeometry x="179" y="45" width="30" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ECdubJ1jrFnXmb-SFTi5-24" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#CC4125;" vertex="1" parent="1">
-          <mxGeometry x="186" y="486" width="10" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="ECdubJ1jrFnXmb-SFTi5-26" value="1:瀏覽商品目錄( )" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="226" y="486" width="110" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ECdubJ1jrFnXmb-SFTi5-27" value="2:瀏覽商品目錄( )" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="486" y="486" width="110" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ECdubJ1jrFnXmb-SFTi5-28" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#CC4125;" vertex="1" parent="1">
-          <mxGeometry x="351" y="504" width="10" height="56" as="geometry" />
-        </mxCell>
-        <mxCell id="ECdubJ1jrFnXmb-SFTi5-29" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#CC4125;" vertex="1" parent="1">
-          <mxGeometry x="711" y="506" width="10" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="ECdubJ1jrFnXmb-SFTi5-30" value="" style="endArrow=classic;endFill=1;endSize=6;html=1;rounded=0;" edge="1" parent="1" source="ECdubJ1jrFnXmb-SFTi5-28" target="ECdubJ1jrFnXmb-SFTi5-29">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="366" y="516" as="sourcePoint" />
-            <mxPoint x="516" y="516" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="416" y="516" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ECdubJ1jrFnXmb-SFTi5-31" value="" style="endArrow=open;endFill=1;endSize=6;html=1;rounded=0;dashed=1;" edge="1" parent="1" source="ECdubJ1jrFnXmb-SFTi5-29" target="ECdubJ1jrFnXmb-SFTi5-28">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="706" y="566" as="sourcePoint" />
-            <mxPoint x="361" y="566" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="581" y="560" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ECdubJ1jrFnXmb-SFTi5-32" value="" style="endArrow=classic;endFill=1;endSize=6;html=1;rounded=1;" edge="1" parent="1" source="ECdubJ1jrFnXmb-SFTi5-24" target="ECdubJ1jrFnXmb-SFTi5-28">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="236" y="516" as="sourcePoint" />
-            <mxPoint x="356" y="510" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="256" y="510" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ECdubJ1jrFnXmb-SFTi5-33" value="3:載入商品目錄UI( )" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="476" y="533" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ECdubJ1jrFnXmb-SFTi5-34" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};direction=west;fillColor=#CC4125;" vertex="1" parent="1">
-          <mxGeometry x="351" y="627" width="10" height="41" as="geometry" />
-        </mxCell>
-        <mxCell id="ECdubJ1jrFnXmb-SFTi5-35" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#CC4125;" vertex="1" parent="1">
-          <mxGeometry x="186" y="625" width="10" height="43" as="geometry" />
-        </mxCell>
-        <mxCell id="ECdubJ1jrFnXmb-SFTi5-36" value="" style="endArrow=classic;endFill=1;endSize=6;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="196" y="633" as="sourcePoint" />
-            <mxPoint x="351" y="633" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ECdubJ1jrFnXmb-SFTi5-37" value="4:查看商品明細( )" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="216" y="608" width="110" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ECdubJ1jrFnXmb-SFTi5-38" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#CC4125;" vertex="1" parent="1">
-          <mxGeometry x="711" y="638" width="10" height="52" as="geometry" />
-        </mxCell>
-        <mxCell id="ECdubJ1jrFnXmb-SFTi5-39" value="" style="endArrow=classic;endFill=1;endSize=6;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="361" y="641" as="sourcePoint" />
-            <mxPoint x="711" y="641" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="416" y="641" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ECdubJ1jrFnXmb-SFTi5-40" value="5:瀏覽商品明細( )" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="481" y="614" width="110" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ECdubJ1jrFnXmb-SFTi5-41" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};direction=west;fillColor=#CC4125;" vertex="1" parent="1">
-          <mxGeometry x="471" y="681" width="10" height="79" as="geometry" />
-        </mxCell>
-        <mxCell id="ECdubJ1jrFnXmb-SFTi5-42" value="" style="endArrow=open;endFill=1;endSize=6;html=1;rounded=0;dashed=1;" edge="1" parent="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="711" y="688" as="sourcePoint" />
-            <mxPoint x="481" y="687.5" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="546" y="688" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ECdubJ1jrFnXmb-SFTi5-43" value="6:載入商品明細( )" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="496" y="653" width="110" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ECdubJ1jrFnXmb-SFTi5-44" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#CC4125;" vertex="1" parent="1">
-          <mxGeometry x="186" y="860" width="10" height="39" as="geometry" />
-        </mxCell>
-        <mxCell id="ECdubJ1jrFnXmb-SFTi5-45" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#CC4125;" vertex="1" parent="1">
-          <mxGeometry x="711" y="729" width="10" height="51" as="geometry" />
-        </mxCell>
-        <mxCell id="ECdubJ1jrFnXmb-SFTi5-46" value="" style="endArrow=classic;endFill=1;endSize=6;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="196" y="869" as="sourcePoint" />
-            <mxPoint x="471" y="869" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ECdubJ1jrFnXmb-SFTi5-47" value="" style="endArrow=classic;endFill=1;endSize=6;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="481" y="740" as="sourcePoint" />
-            <mxPoint x="711" y="740" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ECdubJ1jrFnXmb-SFTi5-48" value="10.新增訂購商品項目" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="196" y="840" width="124" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ECdubJ1jrFnXmb-SFTi5-49" value="8:瀏覽商品目錄( )" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="506" y="706" width="180" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ECdubJ1jrFnXmb-SFTi5-50" value="opt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
-          <mxGeometry x="90" y="600" width="660" height="230" as="geometry" />
-        </mxCell>
-        <mxCell id="ECdubJ1jrFnXmb-SFTi5-51" value="Loop繼續購物" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=90;height=35;" vertex="1" parent="1">
-          <mxGeometry x="20" y="460" width="820" height="520" as="geometry" />
+          <mxGeometry x="90.88" y="106" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ECdubJ1jrFnXmb-SFTi5-52" value="使用者介面" style="shadow=1;fillColor=#FFFFFF;strokeColor=none;gradientColor=#00CCCC;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="241" y="80" width="105" height="50" as="geometry" />
+          <mxGeometry x="220.88" y="136" width="105" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ECdubJ1jrFnXmb-SFTi5-53" value="顯示" style="shadow=1;fillColor=#FFFFFF;strokeColor=none;gradientColor=#00CCCC;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="404.75" y="82" width="105" height="50" as="geometry" />
+          <mxGeometry x="376.63" y="136" width="105" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ECdubJ1jrFnXmb-SFTi5-54" value="商品資料庫" style="shadow=1;fillColor=#FFFFFF;strokeColor=none;gradientColor=#00CCCC;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="637.25" y="82" width="120" height="50" as="geometry" />
+          <mxGeometry x="609.13" y="136" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ECdubJ1jrFnXmb-SFTi5-57" value="商品訂購之AC循序圖" style="rounded=1;fontStyle=1;fillColor=#FFD966;strokeColor=none;fillStyle=auto;shadow=1;glass=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="20" y="15" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ECdubJ1jrFnXmb-SFTi5-58" value="" style="endArrow=open;endFill=1;endSize=6;html=1;rounded=0;dashed=1;" edge="1" parent="1" target="ECdubJ1jrFnXmb-SFTi5-60">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="711" y="778" as="sourcePoint" />
-            <mxPoint x="481" y="777.5" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="546" y="778" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ECdubJ1jrFnXmb-SFTi5-59" value="9:載入商品目錄UI( )" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="496" y="750" width="170" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ECdubJ1jrFnXmb-SFTi5-60" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#CC4125;" vertex="1" parent="1">
-          <mxGeometry x="351" y="760" width="10" height="56" as="geometry" />
-        </mxCell>
-        <mxCell id="ECdubJ1jrFnXmb-SFTi5-61" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#CC4125;" vertex="1" parent="1">
-          <mxGeometry x="186" y="683" width="10" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="ECdubJ1jrFnXmb-SFTi5-62" value="7:瀏覽商品目錄( )" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="216" y="660" width="110" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ECdubJ1jrFnXmb-SFTi5-63" value="" style="endArrow=classic;endFill=1;endSize=6;html=1;rounded=1;" edge="1" parent="1" target="ECdubJ1jrFnXmb-SFTi5-41">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="196" y="690" as="sourcePoint" />
-            <mxPoint x="351" y="690" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="256" y="690" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ECdubJ1jrFnXmb-SFTi5-64" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};direction=west;fillColor=#CC4125;" vertex="1" parent="1">
-          <mxGeometry x="471" y="860" width="10" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ECdubJ1jrFnXmb-SFTi5-65" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#CC4125;" vertex="1" parent="1">
-          <mxGeometry x="711" y="871" width="10" height="51" as="geometry" />
-        </mxCell>
-        <mxCell id="ECdubJ1jrFnXmb-SFTi5-66" value="" style="endArrow=classic;endFill=1;endSize=6;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="481" y="879" as="sourcePoint" />
-            <mxPoint x="710" y="879" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ECdubJ1jrFnXmb-SFTi5-67" value="11.新增訂購項目" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="516" y="850" width="110" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ECdubJ1jrFnXmb-SFTi5-68" value="12:顯示加入購物車完成訊息( )" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="516" y="880" width="170" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ECdubJ1jrFnXmb-SFTi5-69" value="" style="endArrow=open;endFill=1;endSize=6;html=1;rounded=0;dashed=1;" edge="1" parent="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="711" y="911.5" as="sourcePoint" />
-            <mxPoint x="480" y="912" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="546" y="911.5" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ECdubJ1jrFnXmb-SFTi5-70" value="ref" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
-          <mxGeometry x="730" y="840" width="100" height="88.5" as="geometry" />
-        </mxCell>
-        <mxCell id="ECdubJ1jrFnXmb-SFTi5-71" value="加入購物車" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="730" y="881.5" width="70" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="ECdubJ1jrFnXmb-SFTi5-74" value="新增" style="shadow=1;fillColor=#FFFFFF;strokeColor=none;gradientColor=#00CCCC;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="524.75" y="82" width="105" height="50" as="geometry" />
+          <mxGeometry x="496.63" y="136" width="105" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ECdubJ1jrFnXmb-SFTi5-76" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#CC4125;" vertex="1" parent="1">
-          <mxGeometry x="189" y="190" width="10" height="54" as="geometry" />
+          <mxGeometry x="100.88" y="246" width="10" height="54" as="geometry" />
         </mxCell>
         <mxCell id="ECdubJ1jrFnXmb-SFTi5-77" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#CC4125;" vertex="1" parent="1">
-          <mxGeometry x="296.5" y="188" width="10" height="56" as="geometry" />
+          <mxGeometry x="268.38" y="242" width="10" height="56" as="geometry" />
         </mxCell>
         <mxCell id="ECdubJ1jrFnXmb-SFTi5-78" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#CC4125;" vertex="1" parent="1">
-          <mxGeometry x="692.25" y="190" width="10" height="56" as="geometry" />
+          <mxGeometry x="664.13" y="244" width="10" height="56" as="geometry" />
         </mxCell>
         <mxCell id="ECdubJ1jrFnXmb-SFTi5-79" value="" style="endArrow=classic;endFill=1;endSize=6;html=1;rounded=1;" edge="1" parent="1" target="ECdubJ1jrFnXmb-SFTi5-77">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="199" y="210" as="sourcePoint" />
-            <mxPoint x="280" y="210" as="targetPoint" />
+            <mxPoint x="110.88" y="266" as="sourcePoint" />
+            <mxPoint x="191.88" y="266" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="259" y="210" />
+              <mxPoint x="170.88" y="266" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="ECdubJ1jrFnXmb-SFTi5-80" value="1:瀏覽商品目錄( )" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="196" y="180" width="110" height="30" as="geometry" />
+          <mxGeometry x="129.13" y="234" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ECdubJ1jrFnXmb-SFTi5-81" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#CC4125;" vertex="1" parent="1">
-          <mxGeometry x="452.25" y="190" width="10" height="56" as="geometry" />
+          <mxGeometry x="424.13" y="244" width="10" height="56" as="geometry" />
         </mxCell>
-        <mxCell id="ECdubJ1jrFnXmb-SFTi5-82" value="" style="endArrow=classic;endFill=1;endSize=6;html=1;rounded=1;exitX=1.018;exitY=1.033;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ECdubJ1jrFnXmb-SFTi5-80" target="ECdubJ1jrFnXmb-SFTi5-81">
+        <mxCell id="ECdubJ1jrFnXmb-SFTi5-82" value="" style="endArrow=classic;endFill=1;endSize=6;html=1;rounded=1;exitX=1.018;exitY=1.033;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="ECdubJ1jrFnXmb-SFTi5-81">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="316.5" y="210" as="sourcePoint" />
-            <mxPoint x="410" y="210" as="targetPoint" />
+            <mxPoint x="279.86" y="264.99" as="sourcePoint" />
+            <mxPoint x="381.88" y="264" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="376.5" y="210" />
+              <mxPoint x="348.38" y="264" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="ECdubJ1jrFnXmb-SFTi5-83" value="2:瀏覽商品目錄( )" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="329" y="180" width="110" height="30" as="geometry" />
+          <mxGeometry x="300.88" y="234" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ECdubJ1jrFnXmb-SFTi5-84" value="" style="endArrow=classic;endFill=1;endSize=6;html=1;rounded=0;exitX=1.027;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="462.72" y="212" as="sourcePoint" />
-            <mxPoint x="693.75" y="212" as="targetPoint" />
+            <mxPoint x="434.6" y="266" as="sourcePoint" />
+            <mxPoint x="665.63" y="266" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="514.75" y="211" />
+              <mxPoint x="486.63" y="265" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="ECdubJ1jrFnXmb-SFTi5-85" value="3:載入商品目錄資訊( )" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="502.25" y="182" width="135" height="30" as="geometry" />
+          <mxGeometry x="474.13" y="236" width="135" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ECdubJ1jrFnXmb-SFTi5-86" value="4:讀取商品目錄資訊" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;exitX=0.8;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="702.25" y="212" as="sourcePoint" />
+            <mxPoint x="674.13" y="266" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="748.75" y="212" />
-              <mxPoint x="748.75" y="242" />
+              <mxPoint x="720.63" y="266" />
+              <mxPoint x="720.63" y="296" />
             </Array>
-            <mxPoint x="704.25" y="242" as="targetPoint" />
+            <mxPoint x="676.13" y="296" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ECdubJ1jrFnXmb-SFTi5-87" value="" style="endArrow=open;endFill=1;endSize=6;html=1;rounded=0;dashed=1;" edge="1" parent="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="693.75" y="245" as="sourcePoint" />
-            <mxPoint x="462.25" y="245" as="targetPoint" />
+            <mxPoint x="665.63" y="299" as="sourcePoint" />
+            <mxPoint x="434.13" y="299" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="682.25" y="245" />
+              <mxPoint x="654.13" y="299" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="ECdubJ1jrFnXmb-SFTi5-88" value="5:" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="502.25" y="216" width="135" height="30" as="geometry" />
+          <mxGeometry x="474.13" y="270" width="135" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ECdubJ1jrFnXmb-SFTi5-90" value="6:載入商品目錄列表( )" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="317.25" y="214" width="135" height="30" as="geometry" />
+          <mxGeometry x="289.13" y="268" width="135" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ECdubJ1jrFnXmb-SFTi5-91" value="" style="endArrow=open;endFill=1;endSize=6;html=1;rounded=0;dashed=1;" edge="1" parent="1" source="ECdubJ1jrFnXmb-SFTi5-81">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="410" y="244" as="sourcePoint" />
-            <mxPoint x="306" y="244" as="targetPoint" />
+            <mxPoint x="381.88" y="298" as="sourcePoint" />
+            <mxPoint x="277.88" y="298" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ECdubJ1jrFnXmb-SFTi5-92" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#CC4125;" vertex="1" parent="1">
-          <mxGeometry x="189" y="320" width="10" height="54" as="geometry" />
+          <mxGeometry x="100.88" y="376" width="10" height="54" as="geometry" />
         </mxCell>
         <mxCell id="ECdubJ1jrFnXmb-SFTi5-93" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#CC4125;" vertex="1" parent="1">
-          <mxGeometry x="296.5" y="318" width="10" height="56" as="geometry" />
+          <mxGeometry x="268.38" y="372" width="10" height="56" as="geometry" />
         </mxCell>
         <mxCell id="ECdubJ1jrFnXmb-SFTi5-94" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#CC4125;" vertex="1" parent="1">
-          <mxGeometry x="692.25" y="320" width="10" height="56" as="geometry" />
+          <mxGeometry x="664.13" y="374" width="10" height="56" as="geometry" />
         </mxCell>
         <mxCell id="ECdubJ1jrFnXmb-SFTi5-95" value="" style="endArrow=classic;endFill=1;endSize=6;html=1;rounded=1;" edge="1" parent="1" target="ECdubJ1jrFnXmb-SFTi5-93">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="199" y="340" as="sourcePoint" />
-            <mxPoint x="280" y="340" as="targetPoint" />
+            <mxPoint x="110.88" y="396" as="sourcePoint" />
+            <mxPoint x="191.88" y="396" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="259" y="340" />
+              <mxPoint x="170.88" y="396" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="ECdubJ1jrFnXmb-SFTi5-96" value="7:瀏覽商品明細( )" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="196" y="310" width="110" height="30" as="geometry" />
+          <mxGeometry x="133.13" y="364" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ECdubJ1jrFnXmb-SFTi5-97" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#CC4125;" vertex="1" parent="1">
-          <mxGeometry x="452.25" y="320" width="10" height="56" as="geometry" />
+          <mxGeometry x="424.13" y="374" width="10" height="56" as="geometry" />
         </mxCell>
-        <mxCell id="ECdubJ1jrFnXmb-SFTi5-98" value="" style="endArrow=classic;endFill=1;endSize=6;html=1;rounded=1;exitX=1.018;exitY=1.033;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ECdubJ1jrFnXmb-SFTi5-96" target="ECdubJ1jrFnXmb-SFTi5-97">
+        <mxCell id="ECdubJ1jrFnXmb-SFTi5-98" value="" style="endArrow=classic;endFill=1;endSize=6;html=1;rounded=1;exitX=1.018;exitY=1.033;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="ECdubJ1jrFnXmb-SFTi5-97">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="316.5" y="340" as="sourcePoint" />
-            <mxPoint x="410" y="340" as="targetPoint" />
+            <mxPoint x="279.86" y="394.99" as="sourcePoint" />
+            <mxPoint x="381.88" y="394" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="376.5" y="340" />
+              <mxPoint x="348.38" y="394" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="ECdubJ1jrFnXmb-SFTi5-99" value="8:瀏覽商品明細( )" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="329" y="310" width="110" height="30" as="geometry" />
+          <mxGeometry x="300.88" y="364" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ECdubJ1jrFnXmb-SFTi5-100" value="" style="endArrow=classic;endFill=1;endSize=6;html=1;rounded=0;exitX=1.027;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="462.72" y="342" as="sourcePoint" />
-            <mxPoint x="693.75" y="342" as="targetPoint" />
+            <mxPoint x="434.6" y="396" as="sourcePoint" />
+            <mxPoint x="665.63" y="396" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="514.75" y="341" />
+              <mxPoint x="486.63" y="395" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="ECdubJ1jrFnXmb-SFTi5-101" value="9:載入商品明細資訊( )" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="502.25" y="312" width="135" height="30" as="geometry" />
+          <mxGeometry x="474.13" y="366" width="135" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ECdubJ1jrFnXmb-SFTi5-102" value="10:讀取商品明細資訊" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;exitX=0.8;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="702.25" y="342" as="sourcePoint" />
+            <mxPoint x="674.13" y="396" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="748.75" y="342" />
-              <mxPoint x="748.75" y="372" />
+              <mxPoint x="720.63" y="396" />
+              <mxPoint x="720.63" y="426" />
             </Array>
-            <mxPoint x="704.25" y="372" as="targetPoint" />
+            <mxPoint x="676.13" y="426" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ECdubJ1jrFnXmb-SFTi5-103" value="" style="endArrow=open;endFill=1;endSize=6;html=1;rounded=0;dashed=1;" edge="1" parent="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="693.75" y="375" as="sourcePoint" />
-            <mxPoint x="462.25" y="375" as="targetPoint" />
+            <mxPoint x="665.63" y="429" as="sourcePoint" />
+            <mxPoint x="434.13" y="429" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="682.25" y="375" />
+              <mxPoint x="654.13" y="429" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="ECdubJ1jrFnXmb-SFTi5-104" value="11:" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="502.25" y="346" width="135" height="30" as="geometry" />
+          <mxGeometry x="474.13" y="400" width="135" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ECdubJ1jrFnXmb-SFTi5-105" value="12:載入商品明細內容( )" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="316.5" y="344" width="135" height="30" as="geometry" />
+          <mxGeometry x="288.38" y="398" width="135" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ECdubJ1jrFnXmb-SFTi5-106" value="" style="endArrow=open;endFill=1;endSize=6;html=1;rounded=0;dashed=1;" edge="1" parent="1" source="ECdubJ1jrFnXmb-SFTi5-97">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="410" y="374" as="sourcePoint" />
-            <mxPoint x="306" y="374" as="targetPoint" />
+            <mxPoint x="381.88" y="428" as="sourcePoint" />
+            <mxPoint x="277.88" y="428" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ECdubJ1jrFnXmb-SFTi5-107" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#CC4125;" vertex="1" parent="1">
+          <mxGeometry x="100.88" y="486" width="10" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="ECdubJ1jrFnXmb-SFTi5-108" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#CC4125;" vertex="1" parent="1">
+          <mxGeometry x="267.88" y="484" width="10" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="ECdubJ1jrFnXmb-SFTi5-109" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#CC4125;" vertex="1" parent="1">
+          <mxGeometry x="547.88" y="484" width="10" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="ECdubJ1jrFnXmb-SFTi5-110" value="" style="endArrow=classic;endFill=1;endSize=6;html=1;rounded=1;" edge="1" parent="1" target="ECdubJ1jrFnXmb-SFTi5-108">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="110.88" y="506" as="sourcePoint" />
+            <mxPoint x="171.88" y="506" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170.88" y="506" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ECdubJ1jrFnXmb-SFTi5-111" value="" style="endArrow=classic;endFill=1;endSize=6;html=1;rounded=1;" edge="1" parent="1" target="ECdubJ1jrFnXmb-SFTi5-109">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="278.38" y="504" as="sourcePoint" />
+            <mxPoint x="375.38" y="504" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="338.38" y="504" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ECdubJ1jrFnXmb-SFTi5-112" value="15:加入購物車" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;exitX=0.8;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="557.88" y="504" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="604.38" y="504" />
+              <mxPoint x="604.38" y="534" />
+            </Array>
+            <mxPoint x="559.88" y="534" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ECdubJ1jrFnXmb-SFTi5-113" value="" style="endArrow=open;endFill=1;endSize=6;html=1;rounded=0;dashed=1;" edge="1" parent="1" target="ECdubJ1jrFnXmb-SFTi5-108">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="547.88" y="539" as="sourcePoint" />
+            <mxPoint x="272.88" y="539" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="536.38" y="539" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ECdubJ1jrFnXmb-SFTi5-114" value="13:新增訂購商品項目( )" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="116.50999999999999" y="484" width="135.25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ECdubJ1jrFnXmb-SFTi5-115" value="14:新增訂購商品項目( )" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="361.51" y="484" width="135.25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ECdubJ1jrFnXmb-SFTi5-116" value="16:新增商品項目完成( )" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="361.38" y="514" width="135.25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ECdubJ1jrFnXmb-SFTi5-122" value="Loop繼續購物" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=90;height=35;" vertex="1" parent="1">
+          <mxGeometry x="20" y="50" width="840" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="ECdubJ1jrFnXmb-SFTi5-123" value="opt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="200" width="820" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="ECdubJ1jrFnXmb-SFTi5-124" value="ref" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="609.13" y="467.75" width="100" height="88.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
