@@ -1,292 +1,239 @@
-<mxfile host="app.diagrams.net" modified="2023-04-12T02:04:01.171Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="pEJyFyY74R_hWJt1XUP8" version="21.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-12T03:14:52.405Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="fLgWeS5wX2Joejtp_0P-" version="21.1.5" type="github">
   <diagram name="第 1 页" id="LoKonJyjHquECygTknBG">
     <mxGraphModel dx="880" dy="461" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="lvuibErdHY3F2Ib51GdS-1" value="" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=none;dashed=1;rounded=0;" edge="1" parent="1" source="lvuibErdHY3F2Ib51GdS-26">
+        <mxCell id="lvuibErdHY3F2Ib51GdS-117" value="" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=none;dashed=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="176" y="169" as="sourcePoint" />
-            <mxPoint x="176" y="149" as="targetPoint" />
+            <mxPoint x="586" y="550" as="sourcePoint" />
+            <mxPoint x="585.5" y="117" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lvuibErdHY3F2Ib51GdS-2" value="" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=none;dashed=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="lvuibErdHY3F2Ib51GdS-55" target="lvuibErdHY3F2Ib51GdS-34">
+        <mxCell id="lvuibErdHY3F2Ib51GdS-63" value="" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=none;dashed=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="lvuibErdHY3F2Ib51GdS-86" target="lvuibErdHY3F2Ib51GdS-95">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="341" y="195" as="sourcePoint" />
-            <mxPoint x="471" y="155" as="targetPoint" />
+            <mxPoint x="469" y="343" as="sourcePoint" />
+            <mxPoint x="469" y="125" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lvuibErdHY3F2Ib51GdS-3" value="" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=none;dashed=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="lvuibErdHY3F2Ib51GdS-54">
+        <mxCell id="lvuibErdHY3F2Ib51GdS-64" value="會員" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="159" y="30" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lvuibErdHY3F2Ib51GdS-65" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#CC4125;" vertex="1" parent="1">
+          <mxGeometry x="169" y="151" width="10" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="lvuibErdHY3F2Ib51GdS-66" value="" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=none;dashed=1;rounded=0;" edge="1" parent="1" source="lvuibErdHY3F2Ib51GdS-65">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="581" y="568" as="sourcePoint" />
-            <mxPoint x="581" y="144" as="targetPoint" />
+            <mxPoint x="174" y="139" as="sourcePoint" />
+            <mxPoint x="174" y="119" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lvuibErdHY3F2Ib51GdS-4" value="" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=none;dashed=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="lvuibErdHY3F2Ib51GdS-44" target="lvuibErdHY3F2Ib51GdS-35">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="471" y="488" as="sourcePoint" />
-            <mxPoint x="471" y="423" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="lvuibErdHY3F2Ib51GdS-67" value="1:瀏覽商品目錄( )" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="209" y="151" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lvuibErdHY3F2Ib51GdS-5" value="" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=none;dashed=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="lvuibErdHY3F2Ib51GdS-46" target="lvuibErdHY3F2Ib51GdS-36">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="471" y="373" as="sourcePoint" />
-            <mxPoint x="471" y="155" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="lvuibErdHY3F2Ib51GdS-68" value="2:瀏覽商品目錄( )" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="151" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lvuibErdHY3F2Ib51GdS-6" value="會員" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
-          <mxGeometry x="161" y="60" width="30" height="60" as="geometry" />
+        <mxCell id="lvuibErdHY3F2Ib51GdS-69" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#CC4125;" vertex="1" parent="1">
+          <mxGeometry x="334" y="169" width="10" height="56" as="geometry" />
         </mxCell>
-        <mxCell id="lvuibErdHY3F2Ib51GdS-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#CC4125;" vertex="1" parent="1">
-          <mxGeometry x="171" y="199" width="10" height="54" as="geometry" />
+        <mxCell id="lvuibErdHY3F2Ib51GdS-70" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#CC4125;" vertex="1" parent="1">
+          <mxGeometry x="694" y="171" width="10" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="lvuibErdHY3F2Ib51GdS-8" value="1:瀏覽商品目錄( )" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="202" y="176" width="110" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="lvuibErdHY3F2Ib51GdS-9" value="2:瀏覽商品目錄( )" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="471" y="181" width="110" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="lvuibErdHY3F2Ib51GdS-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#CC4125;" vertex="1" parent="1">
-          <mxGeometry x="336" y="199" width="10" height="56" as="geometry" />
-        </mxCell>
-        <mxCell id="lvuibErdHY3F2Ib51GdS-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#CC4125;" vertex="1" parent="1">
-          <mxGeometry x="696" y="201" width="10" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="lvuibErdHY3F2Ib51GdS-12" value="" style="endArrow=classic;endFill=1;endSize=6;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="lvuibErdHY3F2Ib51GdS-71" value="" style="endArrow=classic;endFill=1;endSize=6;html=1;rounded=0;" edge="1" parent="1" source="lvuibErdHY3F2Ib51GdS-69" target="lvuibErdHY3F2Ib51GdS-70">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="346" y="204" as="sourcePoint" />
-            <mxPoint x="696" y="204" as="targetPoint" />
+            <mxPoint x="349" y="181" as="sourcePoint" />
+            <mxPoint x="499" y="181" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="401" y="204" />
+              <mxPoint x="399" y="181" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="lvuibErdHY3F2Ib51GdS-13" value="" style="endArrow=open;endFill=1;endSize=6;html=1;rounded=0;dashed=1;" edge="1" parent="1" source="lvuibErdHY3F2Ib51GdS-11" target="lvuibErdHY3F2Ib51GdS-10">
+        <mxCell id="lvuibErdHY3F2Ib51GdS-72" value="" style="endArrow=open;endFill=1;endSize=6;html=1;rounded=0;dashed=1;" edge="1" parent="1" source="lvuibErdHY3F2Ib51GdS-70" target="lvuibErdHY3F2Ib51GdS-69">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="691" y="261" as="sourcePoint" />
-            <mxPoint x="346" y="261" as="targetPoint" />
+            <mxPoint x="689" y="231" as="sourcePoint" />
+            <mxPoint x="344" y="231" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="566" y="255" />
+              <mxPoint x="564" y="225" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="lvuibErdHY3F2Ib51GdS-14" value="" style="endArrow=classic;endFill=1;endSize=6;html=1;rounded=1;" edge="1" parent="1">
+        <mxCell id="lvuibErdHY3F2Ib51GdS-73" value="" style="endArrow=classic;endFill=1;endSize=6;html=1;rounded=1;" edge="1" parent="1" source="lvuibErdHY3F2Ib51GdS-65" target="lvuibErdHY3F2Ib51GdS-69">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="181" y="200" as="sourcePoint" />
-            <mxPoint x="336" y="200" as="targetPoint" />
+            <mxPoint x="219" y="181" as="sourcePoint" />
+            <mxPoint x="339" y="175" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="241" y="200" />
+              <mxPoint x="239" y="175" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="lvuibErdHY3F2Ib51GdS-15" value="3:載入商品目錄UI( )" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="461" y="228" width="120" height="30" as="geometry" />
+        <mxCell id="lvuibErdHY3F2Ib51GdS-74" value="3:載入商品目錄UI( )" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="459" y="198" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lvuibErdHY3F2Ib51GdS-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};direction=west;fillColor=#CC4125;" vertex="1" parent="1">
-          <mxGeometry x="336" y="322" width="10" height="41" as="geometry" />
+        <mxCell id="lvuibErdHY3F2Ib51GdS-75" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};direction=west;fillColor=#CC4125;" vertex="1" parent="1">
+          <mxGeometry x="334" y="292" width="10" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="lvuibErdHY3F2Ib51GdS-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#CC4125;" vertex="1" parent="1">
-          <mxGeometry x="171" y="322" width="10" height="43" as="geometry" />
+        <mxCell id="lvuibErdHY3F2Ib51GdS-76" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#CC4125;" vertex="1" parent="1">
+          <mxGeometry x="169" y="290" width="10" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="lvuibErdHY3F2Ib51GdS-18" value="" style="endArrow=classic;endFill=1;endSize=6;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="lvuibErdHY3F2Ib51GdS-77" value="" style="endArrow=classic;endFill=1;endSize=6;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="181" y="322" as="sourcePoint" />
-            <mxPoint x="336" y="322" as="targetPoint" />
+            <mxPoint x="179" y="298" as="sourcePoint" />
+            <mxPoint x="334" y="298" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lvuibErdHY3F2Ib51GdS-19" value="4:查看商品明細( )" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="201" y="297" width="110" height="30" as="geometry" />
+        <mxCell id="lvuibErdHY3F2Ib51GdS-78" value="4:查看商品明細( )" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="199" y="273" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lvuibErdHY3F2Ib51GdS-20" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#CC4125;" vertex="1" parent="1">
-          <mxGeometry x="696" y="333" width="10" height="52" as="geometry" />
+        <mxCell id="lvuibErdHY3F2Ib51GdS-79" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#CC4125;" vertex="1" parent="1">
+          <mxGeometry x="694" y="303" width="10" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="lvuibErdHY3F2Ib51GdS-21" value="" style="endArrow=classic;endFill=1;endSize=6;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="lvuibErdHY3F2Ib51GdS-80" value="" style="endArrow=classic;endFill=1;endSize=6;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="346" y="332" as="sourcePoint" />
-            <mxPoint x="696" y="332" as="targetPoint" />
+            <mxPoint x="344" y="306" as="sourcePoint" />
+            <mxPoint x="694" y="306" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="401" y="332" />
+              <mxPoint x="399" y="306" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="lvuibErdHY3F2Ib51GdS-22" value="5:瀏覽商品明細( )" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="466" y="305" width="110" height="30" as="geometry" />
+        <mxCell id="lvuibErdHY3F2Ib51GdS-81" value="5:瀏覽商品明細( )" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="464" y="279" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lvuibErdHY3F2Ib51GdS-23" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};direction=west;fillColor=#CC4125;" vertex="1" parent="1">
-          <mxGeometry x="456" y="376" width="10" height="79" as="geometry" />
+        <mxCell id="lvuibErdHY3F2Ib51GdS-82" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};direction=west;fillColor=#CC4125;" vertex="1" parent="1">
+          <mxGeometry x="454" y="346" width="10" height="79" as="geometry" />
         </mxCell>
-        <mxCell id="lvuibErdHY3F2Ib51GdS-24" value="" style="endArrow=open;endFill=1;endSize=6;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+        <mxCell id="lvuibErdHY3F2Ib51GdS-83" value="" style="endArrow=open;endFill=1;endSize=6;html=1;rounded=0;dashed=1;" edge="1" parent="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="696" y="385" as="sourcePoint" />
-            <mxPoint x="466" y="384.5" as="targetPoint" />
+            <mxPoint x="694" y="353" as="sourcePoint" />
+            <mxPoint x="464" y="352.5" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="531" y="385" />
+              <mxPoint x="529" y="353" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="lvuibErdHY3F2Ib51GdS-25" value="6:載入商品明細UI( )" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="465" y="354" width="121" height="30" as="geometry" />
+        <mxCell id="lvuibErdHY3F2Ib51GdS-84" value="6:載入商品明細( )" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470.2" y="318" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lvuibErdHY3F2Ib51GdS-26" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#CC4125;" vertex="1" parent="1">
-          <mxGeometry x="171" y="557" width="10" height="39" as="geometry" />
+        <mxCell id="lvuibErdHY3F2Ib51GdS-85" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#CC4125;" vertex="1" parent="1">
+          <mxGeometry x="169" y="525" width="10" height="39" as="geometry" />
         </mxCell>
-        <mxCell id="lvuibErdHY3F2Ib51GdS-27" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#CC4125;" vertex="1" parent="1">
-          <mxGeometry x="696" y="424" width="10" height="51" as="geometry" />
+        <mxCell id="lvuibErdHY3F2Ib51GdS-86" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#CC4125;" vertex="1" parent="1">
+          <mxGeometry x="694" y="394" width="10" height="51" as="geometry" />
         </mxCell>
-        <mxCell id="lvuibErdHY3F2Ib51GdS-28" value="" style="endArrow=classic;endFill=1;endSize=6;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="lvuibErdHY3F2Ib51GdS-87" value="" style="endArrow=classic;endFill=1;endSize=6;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="181" y="557" as="sourcePoint" />
-            <mxPoint x="456" y="557" as="targetPoint" />
+            <mxPoint x="179" y="534" as="sourcePoint" />
+            <mxPoint x="454" y="534" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lvuibErdHY3F2Ib51GdS-29" value="" style="endArrow=classic;endFill=1;endSize=6;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="lvuibErdHY3F2Ib51GdS-88" value="" style="endArrow=classic;endFill=1;endSize=6;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="466" y="425" as="sourcePoint" />
-            <mxPoint x="696" y="425" as="targetPoint" />
+            <mxPoint x="464" y="405" as="sourcePoint" />
+            <mxPoint x="694" y="405" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lvuibErdHY3F2Ib51GdS-30" value="10.新增訂購商品項目" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="181" y="536" width="124" height="30" as="geometry" />
+        <mxCell id="lvuibErdHY3F2Ib51GdS-89" value="10.新增訂購商品項目" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="179" y="505" width="124" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lvuibErdHY3F2Ib51GdS-31" value="8:瀏覽商品目錄( )" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="469" y="397" width="180" height="30" as="geometry" />
+        <mxCell id="lvuibErdHY3F2Ib51GdS-90" value="8:瀏覽商品目錄( )" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="471.5" y="372" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lvuibErdHY3F2Ib51GdS-32" value="opt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
-          <mxGeometry x="75" y="295" width="660" height="230" as="geometry" />
+        <mxCell id="lvuibErdHY3F2Ib51GdS-91" value="opt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="73" y="265" width="660" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="lvuibErdHY3F2Ib51GdS-33" value="Loop繼續購物" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=90;height=35;" vertex="1" parent="1">
-          <mxGeometry x="5" y="155" width="820" height="520" as="geometry" />
+        <mxCell id="lvuibErdHY3F2Ib51GdS-92" value="Loop繼續購物" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=90;height=35;" vertex="1" parent="1">
+          <mxGeometry x="3" y="125" width="820" height="520" as="geometry" />
         </mxCell>
-        <mxCell id="lvuibErdHY3F2Ib51GdS-34" value="商品目錄UI" style="shadow=1;fillColor=#FFFFFF;strokeColor=none;gradientColor=#00CCCC;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="288.5" y="95" width="105" height="50" as="geometry" />
+        <mxCell id="lvuibErdHY3F2Ib51GdS-93" value="商品目錄UI" style="shadow=1;fillColor=#FFFFFF;strokeColor=none;gradientColor=#00CCCC;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="286.5" y="65" width="105" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="lvuibErdHY3F2Ib51GdS-35" value="商品明細UI" style="shadow=1;fillColor=#FFFFFF;strokeColor=none;gradientColor=#00CCCC;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="408.5" y="95" width="105" height="50" as="geometry" />
+        <mxCell id="lvuibErdHY3F2Ib51GdS-94" value="商品明細UI" style="shadow=1;fillColor=#FFFFFF;strokeColor=none;gradientColor=#00CCCC;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="406.5" y="65" width="105" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="lvuibErdHY3F2Ib51GdS-36" value="Application Core" style="shadow=1;fillColor=#FFFFFF;strokeColor=none;gradientColor=#00CCCC;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="641" y="95" width="120" height="50" as="geometry" />
+        <mxCell id="lvuibErdHY3F2Ib51GdS-95" value="Application Core" style="shadow=1;fillColor=#FFFFFF;strokeColor=none;gradientColor=#00CCCC;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="639" y="65" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="lvuibErdHY3F2Ib51GdS-37" value="商品訂購之UI循序圖" style="rounded=1;fontStyle=1;fillColor=#FFD966;strokeColor=none;fillStyle=auto;shadow=1;glass=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="2" y="30" width="150" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="lvuibErdHY3F2Ib51GdS-38" value="" style="endArrow=open;endFill=1;endSize=6;html=1;rounded=0;dashed=1;" edge="1" parent="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="696" y="475" as="sourcePoint" />
-            <mxPoint x="346" y="475" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="531" y="475" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="lvuibErdHY3F2Ib51GdS-39" value="9:載入商品目錄UI( )" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="466" y="445" width="170" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="lvuibErdHY3F2Ib51GdS-40" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#CC4125;" vertex="1" parent="1">
-          <mxGeometry x="336" y="420" width="10" height="56" as="geometry" />
-        </mxCell>
-        <mxCell id="lvuibErdHY3F2Ib51GdS-41" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#CC4125;" vertex="1" parent="1">
-          <mxGeometry x="171" y="377" width="10" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="lvuibErdHY3F2Ib51GdS-42" value="7:瀏覽商品目錄( )" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="201" y="355" width="110" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="lvuibErdHY3F2Ib51GdS-43" value="" style="endArrow=classic;endFill=1;endSize=6;html=1;rounded=1;" edge="1" parent="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="181" y="377" as="sourcePoint" />
-            <mxPoint x="456" y="377" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="241" y="377" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="lvuibErdHY3F2Ib51GdS-44" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};direction=west;fillColor=#CC4125;" vertex="1" parent="1">
-          <mxGeometry x="456" y="555" width="10" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lvuibErdHY3F2Ib51GdS-45" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;dashed=1;" edge="1" parent="1">
+        <mxCell id="lvuibErdHY3F2Ib51GdS-96" value="" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=none;dashed=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="lvuibErdHY3F2Ib51GdS-82" target="lvuibErdHY3F2Ib51GdS-94">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="696" y="613" as="sourcePoint" />
-            <mxPoint x="586" y="613" as="targetPoint" />
+            <mxPoint x="469" y="458" as="sourcePoint" />
+            <mxPoint x="469" y="393" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lvuibErdHY3F2Ib51GdS-46" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#CC4125;" vertex="1" parent="1">
-          <mxGeometry x="696" y="569" width="10" height="44" as="geometry" />
-        </mxCell>
-        <mxCell id="lvuibErdHY3F2Ib51GdS-47" value="" style="endArrow=classic;endFill=1;endSize=6;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="466" y="570" as="sourcePoint" />
-            <mxPoint x="695" y="570" as="targetPoint" />
+        <mxCell id="lvuibErdHY3F2Ib51GdS-97" value="" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=none;dashed=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="lvuibErdHY3F2Ib51GdS-93">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="339" y="165" as="sourcePoint" />
+            <mxPoint x="469" y="125" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lvuibErdHY3F2Ib51GdS-48" value="11.新增訂購商品項目" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="501" y="541" width="131" height="30" as="geometry" />
+        <mxCell id="lvuibErdHY3F2Ib51GdS-98" value="商品訂購之UI循序圖" style="rounded=1;fontStyle=1;fillColor=#FFD966;strokeColor=none;fillStyle=auto;shadow=1;glass=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lvuibErdHY3F2Ib51GdS-49" value="13:顯示加入購物車完成訊息( )" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="475.2" y="623.5" width="96.87" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="lvuibErdHY3F2Ib51GdS-50" value="" style="endArrow=open;endFill=1;endSize=6;html=1;rounded=0;dashed=1;" edge="1" parent="1" source="lvuibErdHY3F2Ib51GdS-54">
+        <mxCell id="lvuibErdHY3F2Ib51GdS-99" value="" style="endArrow=open;endFill=1;endSize=6;html=1;rounded=0;dashed=1;" edge="1" parent="1" target="lvuibErdHY3F2Ib51GdS-101">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="696" y="612.5" as="sourcePoint" />
-            <mxPoint x="465" y="613" as="targetPoint" />
+            <mxPoint x="694" y="443" as="sourcePoint" />
+            <mxPoint x="464" y="442.5" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="531" y="612.5" />
+              <mxPoint x="529" y="443" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="lvuibErdHY3F2Ib51GdS-51" value="ref" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
-          <mxGeometry x="596" y="623.5" width="176" height="36.5" as="geometry" />
+        <mxCell id="lvuibErdHY3F2Ib51GdS-100" value="9:載入商品目錄UI( )" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="471.5" y="415" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lvuibErdHY3F2Ib51GdS-52" value="12:加入購物車()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="664" y="626.75" width="100" height="30" as="geometry" />
+        <mxCell id="lvuibErdHY3F2Ib51GdS-101" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#CC4125;" vertex="1" parent="1">
+          <mxGeometry x="334" y="425" width="10" height="56" as="geometry" />
         </mxCell>
-        <mxCell id="lvuibErdHY3F2Ib51GdS-53" value="購物車UI" style="shadow=1;fillColor=#FFFFFF;strokeColor=none;gradientColor=#00CCCC;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="527" y="95" width="105" height="50" as="geometry" />
+        <mxCell id="lvuibErdHY3F2Ib51GdS-102" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#CC4125;" vertex="1" parent="1">
+          <mxGeometry x="169" y="348" width="10" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="lvuibErdHY3F2Ib51GdS-54" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#CC4125;" vertex="1" parent="1">
-          <mxGeometry x="576" y="579" width="10" height="35" as="geometry" />
+        <mxCell id="lvuibErdHY3F2Ib51GdS-103" value="7:瀏覽商品目錄( )" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="199" y="325" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lvuibErdHY3F2Ib51GdS-55" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#CC4125;" vertex="1" parent="1">
-          <mxGeometry x="336" y="566" width="10" height="47" as="geometry" />
-        </mxCell>
-        <mxCell id="lvuibErdHY3F2Ib51GdS-56" value="" style="endArrow=open;endFill=1;endSize=6;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+        <mxCell id="lvuibErdHY3F2Ib51GdS-104" value="" style="endArrow=classic;endFill=1;endSize=6;html=1;rounded=1;" edge="1" parent="1" target="lvuibErdHY3F2Ib51GdS-82">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="455" y="614" as="sourcePoint" />
-            <mxPoint x="344" y="614" as="targetPoint" />
+            <mxPoint x="179" y="355" as="sourcePoint" />
+            <mxPoint x="334" y="355" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="410" y="613.5" />
+              <mxPoint x="239" y="355" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="lvuibErdHY3F2Ib51GdS-57" value="14:載入商品目錄UI( )" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="336.63" y="623.5" width="126" height="30" as="geometry" />
+        <mxCell id="lvuibErdHY3F2Ib51GdS-105" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};direction=west;fillColor=#CC4125;" vertex="1" parent="1">
+          <mxGeometry x="454" y="525" width="10" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lvuibErdHY3F2Ib51GdS-58" value="" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=none;dashed=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="176" y="720" as="sourcePoint" />
-            <mxPoint x="175.5" y="596" as="targetPoint" />
+        <mxCell id="lvuibErdHY3F2Ib51GdS-106" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#CC4125;" vertex="1" parent="1">
+          <mxGeometry x="694" y="536" width="10" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="lvuibErdHY3F2Ib51GdS-107" value="" style="endArrow=classic;endFill=1;endSize=6;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="464" y="544" as="sourcePoint" />
+            <mxPoint x="693" y="544" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lvuibErdHY3F2Ib51GdS-59" value="" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=none;dashed=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="341" y="720" as="sourcePoint" />
-            <mxPoint x="340.5" y="614" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="lvuibErdHY3F2Ib51GdS-108" value="11.新增訂購項目" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="471" y="516.5" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lvuibErdHY3F2Ib51GdS-60" value="" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=none;dashed=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="461" y="720" as="sourcePoint" />
-            <mxPoint x="460.5" y="615" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="lvuibErdHY3F2Ib51GdS-109" value="12:顯示加入購物車完成訊息( )" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="574" y="610" width="171.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lvuibErdHY3F2Ib51GdS-61" value="" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=none;dashed=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="581" y="720" as="sourcePoint" />
-            <mxPoint x="580.5" y="614" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="lvuibErdHY3F2Ib51GdS-111" value="ref" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="713" y="505" width="100" height="88.5" as="geometry" />
         </mxCell>
-        <mxCell id="lvuibErdHY3F2Ib51GdS-62" value="" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=none;dashed=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="701" y="720" as="sourcePoint" />
-            <mxPoint x="700.5" y="613" as="targetPoint" />
+        <mxCell id="lvuibErdHY3F2Ib51GdS-112" value="加入購物車" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="713" y="546.5" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lvuibErdHY3F2Ib51GdS-113" value="購物車UI" style="shadow=1;fillColor=#FFFFFF;strokeColor=none;gradientColor=#00CCCC;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="526.5" y="65" width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lvuibErdHY3F2Ib51GdS-114" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#CC4125;" vertex="1" parent="1">
+          <mxGeometry x="581" y="552" width="10" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="lvuibErdHY3F2Ib51GdS-116" value="" style="endArrow=open;endFill=1;endSize=6;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="695" y="587" as="sourcePoint" />
+            <mxPoint x="588" y="587" as="targetPoint" />
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
       </root>
