@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-12T05:26:24.647Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="4asxntoyw484VtQkdcR6" version="21.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-12T07:17:03.222Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="t6zqsQG_t07ufE9P0Gc0" version="21.1.5" type="github">
   <diagram name="第 1 页" id="LoKonJyjHquECygTknBG">
     <mxGraphModel dx="880" dy="461" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -101,7 +101,7 @@
           <mxGeometry x="464" y="279" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lvuibErdHY3F2Ib51GdS-82" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};direction=west;fillColor=#CC4125;" vertex="1" parent="1">
-          <mxGeometry x="454" y="346" width="10" height="104" as="geometry" />
+          <mxGeometry x="454" y="315" width="10" height="48" as="geometry" />
         </mxCell>
         <mxCell id="lvuibErdHY3F2Ib51GdS-83" value="" style="endArrow=open;endFill=1;endSize=6;html=1;rounded=0;dashed=1;" edge="1" parent="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -169,32 +169,14 @@
         <mxCell id="lvuibErdHY3F2Ib51GdS-98" value="商品訂購之UI循序圖" style="rounded=1;fontStyle=1;fillColor=#FFD966;strokeColor=none;fillStyle=auto;shadow=1;glass=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lvuibErdHY3F2Ib51GdS-99" value="" style="endArrow=open;endFill=1;endSize=6;html=1;rounded=0;dashed=1;" edge="1" parent="1" target="lvuibErdHY3F2Ib51GdS-82">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="694" y="443" as="sourcePoint" />
-            <mxPoint x="344" y="443" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="529" y="443" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="lvuibErdHY3F2Ib51GdS-100" value="9:載入商品明細UI( )" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="464" y="415" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lvuibErdHY3F2Ib51GdS-102" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#CC4125;" vertex="1" parent="1">
-          <mxGeometry x="169" y="348" width="10" height="54" as="geometry" />
+          <mxGeometry x="169" y="388.5" width="10" height="54" as="geometry" />
         </mxCell>
         <mxCell id="lvuibErdHY3F2Ib51GdS-103" value="7:選擇商品細項( )" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="199" y="325" width="110" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="lvuibErdHY3F2Ib51GdS-104" value="" style="endArrow=classic;endFill=1;endSize=6;html=1;rounded=1;" edge="1" parent="1" target="lvuibErdHY3F2Ib51GdS-82">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="179" y="355" as="sourcePoint" />
-            <mxPoint x="334" y="355" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="239" y="355" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry x="199" y="372" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lvuibErdHY3F2Ib51GdS-106" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#CC4125;" vertex="1" parent="1">
           <mxGeometry x="694" y="536" width="10" height="51" as="geometry" />
@@ -228,6 +210,29 @@
             <mxPoint x="695" y="587" as="sourcePoint" />
             <mxPoint x="588" y="587" as="targetPoint" />
             <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lvuibErdHY3F2Ib51GdS-120" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};direction=west;fillColor=#CC4125;" vertex="1" parent="1">
+          <mxGeometry x="454" y="391" width="10" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="lvuibErdHY3F2Ib51GdS-122" value="" style="endArrow=open;endFill=1;endSize=6;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="694" y="445" as="sourcePoint" />
+            <mxPoint x="464" y="445" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="640" y="445" />
+              <mxPoint x="529" y="445" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lvuibErdHY3F2Ib51GdS-123" value="" style="endArrow=classic;endFill=1;endSize=6;html=1;rounded=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="179" y="396" as="sourcePoint" />
+            <mxPoint x="454" y="396" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="239" y="396" />
+              <mxPoint x="370" y="396" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
