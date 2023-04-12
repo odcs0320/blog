@@ -1,9 +1,27 @@
-<mxfile host="app.diagrams.net" modified="2023-04-12T07:33:01.248Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="jQwXWXR1EIZKeJpc_cpP" version="21.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-12T07:36:19.422Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="8rHd1kFdYnadoTFjli2F" version="21.1.5" type="github">
   <diagram name="第 1 页" id="LoKonJyjHquECygTknBG">
     <mxGraphModel dx="880" dy="461" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="lvuibErdHY3F2Ib51GdS-66" value="" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=none;dashed=1;rounded=0;" edge="1" parent="1" source="lvuibErdHY3F2Ib51GdS-85">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="174" y="139" as="sourcePoint" />
+            <mxPoint x="174" y="119" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lvuibErdHY3F2Ib51GdS-96" value="" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=none;dashed=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="lvuibErdHY3F2Ib51GdS-120" target="lvuibErdHY3F2Ib51GdS-94">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="469" y="458" as="sourcePoint" />
+            <mxPoint x="469" y="393" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lvuibErdHY3F2Ib51GdS-97" value="" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=none;dashed=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="lvuibErdHY3F2Ib51GdS-93" source="lvuibErdHY3F2Ib51GdS-128">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="339" y="165" as="sourcePoint" />
+            <mxPoint x="469" y="125" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="lvuibErdHY3F2Ib51GdS-117" value="" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=none;dashed=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="lvuibErdHY3F2Ib51GdS-114">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="590" y="600" as="sourcePoint" />
@@ -21,12 +39,6 @@
         </mxCell>
         <mxCell id="lvuibErdHY3F2Ib51GdS-65" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#CC4125;" vertex="1" parent="1">
           <mxGeometry x="169" y="151" width="10" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="lvuibErdHY3F2Ib51GdS-66" value="" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=none;dashed=1;rounded=0;" edge="1" parent="1" source="lvuibErdHY3F2Ib51GdS-65">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="174" y="139" as="sourcePoint" />
-            <mxPoint x="174" y="119" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="lvuibErdHY3F2Ib51GdS-67" value="1:瀏覽商品目錄( )" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="209" y="151" width="110" height="30" as="geometry" />
@@ -153,18 +165,6 @@
         </mxCell>
         <mxCell id="lvuibErdHY3F2Ib51GdS-95" value="Application Core" style="shadow=1;fillColor=#FFFFFF;strokeColor=none;gradientColor=#00CCCC;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="639" y="65" width="120" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="lvuibErdHY3F2Ib51GdS-96" value="" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=none;dashed=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="lvuibErdHY3F2Ib51GdS-82" target="lvuibErdHY3F2Ib51GdS-94">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="469" y="458" as="sourcePoint" />
-            <mxPoint x="469" y="393" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="lvuibErdHY3F2Ib51GdS-97" value="" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=none;dashed=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="lvuibErdHY3F2Ib51GdS-93">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="339" y="165" as="sourcePoint" />
-            <mxPoint x="469" y="125" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="lvuibErdHY3F2Ib51GdS-98" value="商品訂購之UI循序圖" style="rounded=1;fontStyle=1;fillColor=#FFD966;strokeColor=none;fillStyle=auto;shadow=1;glass=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry width="150" height="30" as="geometry" />
