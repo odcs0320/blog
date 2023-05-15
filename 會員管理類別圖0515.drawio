@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-15T01:56:02.491Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="IiHcG2XuPP2tLldVYCQV" version="21.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-15T02:13:04.500Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="9p1I4qEn2gK7kLodTwVs" version="21.3.0" type="github">
   <diagram name="第 1 页" id="3X7A48wF0ccKFzG1arGP">
     <mxGraphModel dx="880" dy="461" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -59,6 +59,76 @@
         </mxCell>
         <mxCell id="1yCies6e0peQFPxoZElR-16" value="新增/修改資料()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="1yCies6e0peQFPxoZElR-13">
           <mxGeometry y="80" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1yCies6e0peQFPxoZElR-18" value="&lt;&lt;Control&gt;&gt;&#xa;顯示" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="334" y="40" width="166" height="200" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1yCies6e0peQFPxoZElR-19" value="null" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="1yCies6e0peQFPxoZElR-18">
+          <mxGeometry y="40" width="166" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1yCies6e0peQFPxoZElR-20" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="1yCies6e0peQFPxoZElR-18">
+          <mxGeometry y="60" width="166" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="1yCies6e0peQFPxoZElR-21" value="載入會員資料維護UI()&#xa;顯示帳密錯誤訊息()&#xa;載入登入UI()&#xa;顯示驗證錯誤訊息()&#xa;顯示註冊資料輸入錯誤訊息()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="1yCies6e0peQFPxoZElR-18">
+          <mxGeometry y="92" width="166" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="1yCies6e0peQFPxoZElR-22" value="&lt;&lt;Control&gt;&gt;&#xa;登入" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="334" y="280" width="160" height="140" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1yCies6e0peQFPxoZElR-23" value="null" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="1yCies6e0peQFPxoZElR-22">
+          <mxGeometry y="40" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1yCies6e0peQFPxoZElR-24" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="1yCies6e0peQFPxoZElR-22">
+          <mxGeometry y="60" width="160" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="1yCies6e0peQFPxoZElR-25" value="登入成功()&#xa;登入失敗()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="1yCies6e0peQFPxoZElR-22">
+          <mxGeometry y="92" width="160" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="1yCies6e0peQFPxoZElR-26" value="&lt;&lt;Control&gt;&gt;&#xa;忘記密碼" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="334" y="442.5" width="166" height="145" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1yCies6e0peQFPxoZElR-27" value="null" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="1yCies6e0peQFPxoZElR-26">
+          <mxGeometry y="40" width="166" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1yCies6e0peQFPxoZElR-28" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="1yCies6e0peQFPxoZElR-26">
+          <mxGeometry y="60" width="166" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="1yCies6e0peQFPxoZElR-29" value="寄送修改密碼連結驗證成功()&#xa;驗證資料錯誤()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="1yCies6e0peQFPxoZElR-26">
+          <mxGeometry y="92" width="166" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="1yCies6e0peQFPxoZElR-30" value="&lt;&lt;Control&gt;&gt;&#xa;註冊" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="337" y="620" width="160" height="140" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1yCies6e0peQFPxoZElR-31" value="null" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="1yCies6e0peQFPxoZElR-30">
+          <mxGeometry y="40" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1yCies6e0peQFPxoZElR-32" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="1yCies6e0peQFPxoZElR-30">
+          <mxGeometry y="60" width="160" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="1yCies6e0peQFPxoZElR-33" value="註冊成功()&#xa;註冊失敗()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="1yCies6e0peQFPxoZElR-30">
+          <mxGeometry y="92" width="160" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="1yCies6e0peQFPxoZElR-34" value="&lt;&lt;Entity&gt;&gt;&#xa;會員資料" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="70" width="160" height="160" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1yCies6e0peQFPxoZElR-35" value="null" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="1yCies6e0peQFPxoZElR-34">
+          <mxGeometry y="40" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1yCies6e0peQFPxoZElR-36" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="1yCies6e0peQFPxoZElR-34">
+          <mxGeometry y="60" width="160" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="1yCies6e0peQFPxoZElR-37" value="讀取會員資料()&#xa;寫入資料()&#xa;寫入註冊資料()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="1yCies6e0peQFPxoZElR-34">
+          <mxGeometry y="92" width="160" height="58" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
