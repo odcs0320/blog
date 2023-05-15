@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-15T03:10:10.787Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="LJ4uQt2TE3H2EAOO6uIW" version="21.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-15T05:09:19.224Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="PeCs-mPOv5FF1UixUFKa" version="21.3.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="880" dy="461" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -19,7 +19,7 @@
           <mxGeometry y="80" width="160" height="38" as="geometry" />
         </mxCell>
         <mxCell id="k67tClfiPculuBBCe9sF-14" value="&lt;&lt;Boundary&gt;&gt;&#xa;商品明細UI" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="90" y="350" width="160" height="120" as="geometry">
+          <mxGeometry x="90" y="210" width="160" height="120" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -33,7 +33,7 @@
           <mxGeometry y="92" width="160" height="28" as="geometry" />
         </mxCell>
         <mxCell id="k67tClfiPculuBBCe9sF-17" value="&lt;&lt;Boundary&gt;&gt;&#xa;購物車UI" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="90" y="580" width="160" height="120" as="geometry">
+          <mxGeometry x="90" y="370" width="160" height="120" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -47,7 +47,7 @@
           <mxGeometry y="92" width="160" height="28" as="geometry" />
         </mxCell>
         <mxCell id="k67tClfiPculuBBCe9sF-20" value="&lt;&lt;Control&gt;&gt;&#xa;顯示" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="310" y="60" width="160" height="180" as="geometry">
+          <mxGeometry x="334" y="60" width="160" height="180" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -61,7 +61,7 @@
           <mxGeometry y="92" width="160" height="68" as="geometry" />
         </mxCell>
         <mxCell id="k67tClfiPculuBBCe9sF-23" value="&lt;&lt;Control&gt;&gt;&#xa;新增" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="310" y="280" width="160" height="140" as="geometry">
+          <mxGeometry x="334" y="300" width="160" height="140" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
