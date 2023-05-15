@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-15T01:38:50.646Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="VFR_6MhtIyALrcEMgzxB" version="21.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-15T03:14:15.758Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="bsB9InhEFS1Dx_sRcjOw" version="21.3.0" type="github">
   <diagram name="第 1 页" id="ylLFoVvkKksz0EKuqTFA">
     <mxGraphModel dx="880" dy="461" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -15,7 +15,7 @@
         <mxCell id="_zEa7ZKaFozA8xLPyvpP-3" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="_zEa7ZKaFozA8xLPyvpP-1">
           <mxGeometry y="60" width="160" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="_zEa7ZKaFozA8xLPyvpP-4" value="瀏覽購物車()&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="_zEa7ZKaFozA8xLPyvpP-1">
+        <mxCell id="_zEa7ZKaFozA8xLPyvpP-4" value="+ 瀏覽購物車()&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="_zEa7ZKaFozA8xLPyvpP-1">
           <mxGeometry y="80" width="160" height="38" as="geometry" />
         </mxCell>
         <mxCell id="_zEa7ZKaFozA8xLPyvpP-5" value="&lt;&lt;Boundary&gt;&gt;&#xa;購物車UI" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
@@ -29,7 +29,7 @@
         <mxCell id="_zEa7ZKaFozA8xLPyvpP-7" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="_zEa7ZKaFozA8xLPyvpP-5">
           <mxGeometry y="60" width="160" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="_zEa7ZKaFozA8xLPyvpP-8" value="移除商品()&#xa;修改數量()&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="_zEa7ZKaFozA8xLPyvpP-5">
+        <mxCell id="_zEa7ZKaFozA8xLPyvpP-8" value="+ 移除商品()&#xa;+ 修改數量()&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="_zEa7ZKaFozA8xLPyvpP-5">
           <mxGeometry y="80" width="160" height="38" as="geometry" />
         </mxCell>
         <mxCell id="_zEa7ZKaFozA8xLPyvpP-9" value="&lt;&lt;Control&gt;&gt;&#xa;顯示" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
@@ -43,7 +43,7 @@
         <mxCell id="_zEa7ZKaFozA8xLPyvpP-11" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="_zEa7ZKaFozA8xLPyvpP-9">
           <mxGeometry y="60" width="160" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="_zEa7ZKaFozA8xLPyvpP-12" value="載入購物車UI()&#xa;顯示移除商品成功()&#xa;更新購物車UI()&#xa;顯示數量不足訊息()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="_zEa7ZKaFozA8xLPyvpP-9">
+        <mxCell id="_zEa7ZKaFozA8xLPyvpP-12" value="+ 載入購物車UI()&#xa;+ 顯示移除商品成功()&#xa;+ 更新購物車UI()&#xa;+ 顯示數量不足訊息()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="_zEa7ZKaFozA8xLPyvpP-9">
           <mxGeometry y="92" width="160" height="68" as="geometry" />
         </mxCell>
         <mxCell id="_zEa7ZKaFozA8xLPyvpP-13" value="&lt;&lt;Control&gt;&gt;&#xa;購物車" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
@@ -57,7 +57,7 @@
         <mxCell id="_zEa7ZKaFozA8xLPyvpP-15" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="_zEa7ZKaFozA8xLPyvpP-13">
           <mxGeometry y="60" width="160" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="_zEa7ZKaFozA8xLPyvpP-16" value="更新購物車UI()&#xa;數量足夠()&#xa;數量不足()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="_zEa7ZKaFozA8xLPyvpP-13">
+        <mxCell id="_zEa7ZKaFozA8xLPyvpP-16" value="+ 更新購物車UI()&#xa;+ 數量足夠()&#xa;+ 數量不足()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="_zEa7ZKaFozA8xLPyvpP-13">
           <mxGeometry y="92" width="160" height="68" as="geometry" />
         </mxCell>
         <mxCell id="_zEa7ZKaFozA8xLPyvpP-17" value="&lt;&lt;Entity&gt;&gt;&#xa;購物車資料" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
@@ -71,7 +71,7 @@
         <mxCell id="_zEa7ZKaFozA8xLPyvpP-19" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="_zEa7ZKaFozA8xLPyvpP-17">
           <mxGeometry y="60" width="160" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="_zEa7ZKaFozA8xLPyvpP-20" value="讀取購物車資料()&#xa;寫入購物車資料()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="_zEa7ZKaFozA8xLPyvpP-17">
+        <mxCell id="_zEa7ZKaFozA8xLPyvpP-20" value="+ 讀取購物車資料()&#xa;+ 寫入購物車資料()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="_zEa7ZKaFozA8xLPyvpP-17">
           <mxGeometry y="92" width="160" height="58" as="geometry" />
         </mxCell>
       </root>
