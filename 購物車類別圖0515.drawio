@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-16T00:33:25.580Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="duBurYOrO8GpQv8X5m0-" version="21.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-16T01:55:03.025Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="46uda3J4lSIbPUaf0wK6" version="21.3.0" type="github">
   <diagram name="第 1 页" id="ylLFoVvkKksz0EKuqTFA">
     <mxGraphModel dx="880" dy="461" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -9,7 +9,7 @@
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_zEa7ZKaFozA8xLPyvpP-2" value="- 商品編號&#xa;- 商品名稱&#xa;- 數量&#xa;- 售價&#xa;- 總金額" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="_zEa7ZKaFozA8xLPyvpP-1" vertex="1">
+        <mxCell id="_zEa7ZKaFozA8xLPyvpP-2" value="- 訂單編號&#xa;- 商品數量&#xa;- 商品金額&#xa;- 訂單總計" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="_zEa7ZKaFozA8xLPyvpP-1" vertex="1">
           <mxGeometry y="40" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="_zEa7ZKaFozA8xLPyvpP-3" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="_zEa7ZKaFozA8xLPyvpP-1" vertex="1">
@@ -23,7 +23,7 @@
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_zEa7ZKaFozA8xLPyvpP-6" value="- 商品編號&#xa;- 商品名稱&#xa;- 數量&#xa;- 售價&#xa;- 總金額" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="_zEa7ZKaFozA8xLPyvpP-5" vertex="1">
+        <mxCell id="_zEa7ZKaFozA8xLPyvpP-6" value="- 訂單編號&#xa;- 商品數量&#xa;- 商品金額&#xa;- 訂單總計" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="_zEa7ZKaFozA8xLPyvpP-5" vertex="1">
           <mxGeometry y="40" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="_zEa7ZKaFozA8xLPyvpP-7" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="_zEa7ZKaFozA8xLPyvpP-5" vertex="1">
@@ -33,7 +33,7 @@
           <mxGeometry y="140" width="160" height="38" as="geometry" />
         </mxCell>
         <mxCell id="_zEa7ZKaFozA8xLPyvpP-9" value="&lt;&lt;Control&gt;&gt;&#xa;顯示" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="350" y="110" width="160" height="150" as="geometry">
+          <mxGeometry x="350" y="90" width="160" height="150" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -44,7 +44,7 @@
           <mxGeometry y="72" width="160" height="68" as="geometry" />
         </mxCell>
         <mxCell id="_zEa7ZKaFozA8xLPyvpP-13" value="&lt;&lt;Control&gt;&gt;&#xa;購物車" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="350" y="370" width="160" height="140" as="geometry">
+          <mxGeometry x="350" y="350" width="160" height="140" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -55,11 +55,11 @@
           <mxGeometry y="72" width="160" height="68" as="geometry" />
         </mxCell>
         <mxCell id="_zEa7ZKaFozA8xLPyvpP-17" value="&lt;&lt;Entity&gt;&gt;&#xa;購物車資料" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="620" y="240" width="160" height="200" as="geometry">
+          <mxGeometry x="620" y="200" width="160" height="200" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_zEa7ZKaFozA8xLPyvpP-18" value="- 商品編號&#xa;- 商品名稱&#xa;- 數量&#xa;- 售價&#xa;- 總金額" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="_zEa7ZKaFozA8xLPyvpP-17" vertex="1">
+        <mxCell id="_zEa7ZKaFozA8xLPyvpP-18" value="- 訂單編號&#xa;- 商品數量&#xa;- 商品金額&#xa;- 訂單總計" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="_zEa7ZKaFozA8xLPyvpP-17" vertex="1">
           <mxGeometry y="40" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="_zEa7ZKaFozA8xLPyvpP-19" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="_zEa7ZKaFozA8xLPyvpP-17" vertex="1">
@@ -68,10 +68,10 @@
         <mxCell id="_zEa7ZKaFozA8xLPyvpP-20" value="+ 讀取購物車資料()&#xa;+ 寫入購物車資料()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="_zEa7ZKaFozA8xLPyvpP-17" vertex="1">
           <mxGeometry y="152" width="160" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="_zEa7ZKaFozA8xLPyvpP-21" value="" style="endArrow=block;startArrow=block;endFill=1;startFill=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;entryX=0;entryY=0.838;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="_zEa7ZKaFozA8xLPyvpP-12" edge="1">
+        <mxCell id="_zEa7ZKaFozA8xLPyvpP-21" value="" style="endArrow=block;startArrow=block;endFill=1;startFill=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" parent="1" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="240" y="199.5" as="sourcePoint" />
-            <mxPoint x="320" y="200" as="targetPoint" />
+            <mxPoint x="350" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_zEa7ZKaFozA8xLPyvpP-22" value="" style="endArrow=none;startArrow=block;endFill=0;startFill=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;entryX=0;entryY=1.029;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="_zEa7ZKaFozA8xLPyvpP-12" edge="1">
@@ -82,8 +82,8 @@
         </mxCell>
         <mxCell id="_zEa7ZKaFozA8xLPyvpP-23" value="" style="endArrow=block;startArrow=none;endFill=1;startFill=0;html=1;rounded=0;dashed=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="_zEa7ZKaFozA8xLPyvpP-13" edge="1" target="_zEa7ZKaFozA8xLPyvpP-9">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="430" y="350" as="sourcePoint" />
-            <mxPoint x="429.5" y="290" as="targetPoint" />
+            <mxPoint x="430" y="330" as="sourcePoint" />
+            <mxPoint x="429.5" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_zEa7ZKaFozA8xLPyvpP-24" value="" style="endArrow=block;startArrow=block;endFill=1;startFill=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;entryX=0;entryY=0.838;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
